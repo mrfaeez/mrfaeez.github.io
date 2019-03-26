@@ -1,0 +1,91 @@
+body{
+  background-color: #EDEDF4;
+  background: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
+    /*image source: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8rqjH6Z3hAhUDjuYKHYW6AJcQjRx6BAgBEAU&url=http%3A%2F%2Fhdqwalls.com%2Fsmall-memory-wallpaper&psig=AOvVaw3RzJi6fjCyxJyjIUkzWBwQ&ust=1553620409566670*/
+}
+
+.all{
+
+  margin-left: 20px;
+  position: absolute;
+  right:20%;
+  left: 20%;
+  font-family: arial;
+  padding-left: 20px;
+  background-image: linear-gradient(darkblue, turquoise);
+  border-radius: 10px;
+  height: 800px;
+  margin-bottom: 30px;
+}
+
+
+
+/*Navigation Bar*/
+img
+{
+    width: 350px;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: -3%;
+}
+
+.background
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav-bar
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar ul
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.nav-bar li
+{
+    float: left;
+}
+
+.nav-bar li a
+{
+    height: 25px;
+    width: 100px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover
+{
+    /* background-color: grey; */
+    color: #BEF202;
+    border-bottom: 3px solid black;
+}
+
+.dropsurah, .droplearn, .dropgames, .dropstory
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
+{
+    border-bottom: none;
+    display: block;
+}
