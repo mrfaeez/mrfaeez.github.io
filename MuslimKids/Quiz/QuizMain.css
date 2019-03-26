@@ -23,11 +23,11 @@ body{
 
 a{
   text-decoration: none;
-  color: red;
+  color: #ef3d59;
 }
 
 a:hover{
-  color:yellow;
+  color:#f7b400;
 }
 
 /*Navigation Bar*/
@@ -72,7 +72,7 @@ img
     height: 25px;
     width: 100px;
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
     text-align: center;
@@ -90,12 +90,17 @@ img
 {
     display: none;
     position: absolute;
+    color: black;
+    background-color: #bdbdbd;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 
 #surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
 {
+  color: black;
     border-bottom: none;
     display: block;
 }
