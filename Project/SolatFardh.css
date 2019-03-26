@@ -1,0 +1,131 @@
+body{
+  margin: 0px;
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/96/23/DTHxgy.jpg");
+  font-family: 'Montserrat', sans-serif;
+}
+
+img
+{
+
+    width: 350px;
+    height: 200px;
+    margin-left: 38%;
+    margin-top: -3%;
+}
+
+.background
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav-bar
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar ul
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.nav-bar li
+{
+    float: left;
+}
+
+.nav-bar li a
+{
+    height: 25px;
+    width: 100px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover
+{
+    /* background-color: grey; */
+    color: #BEF202;
+    border-bottom: 3px solid black;
+}
+
+.dropsurah, .droplearn, .dropgames, .dropstory
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
+{
+    border-bottom: none;
+    display: block;
+}
+
+
+
+.prayer{
+  text-align: center;
+}
+
+.prayer #condition #canceled
+{
+  padding-left: 0px;
+}
+
+.collapse
+{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapse:hover
+{
+  background-color: #555;
+}
+.collapse:after
+{
+  condition: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after
+{
+  condition: "\2212";
+}
+
+.condition
+{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+ul
+{
+    padding-left: 5px;
+}
