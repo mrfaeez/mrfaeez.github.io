@@ -1,3 +1,4 @@
+/* start navbar css */
 #logo
 {
     width: 350px;
@@ -74,7 +75,9 @@
     display: block;
 }
 
-.box3
+/* end navbar css */
+
+#box3
 {
     position: relative;
 }
@@ -98,11 +101,30 @@
     height: 100%;
 }
 
-.box1
+.box1, .box2, .box4, .box5
 {
+    float: left;
     position: relative;
+    width: 25%;
+    height: auto;
 }
 
+.box1:hover .overlay-kids, .box2:hover .overlay-scene, .box4:hover .overlay-surah, .box5:hover .overlay-games{
+    width: 100%;
+  }
+
+#text {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
 .kids
 {
@@ -124,27 +146,6 @@
     transition: .6s ease;
   }
 
-.box1:hover .overlay-kids, .box2:hover .overlay-scene{
-    width: 100%;
-  }
-
-#text {
-    font-family: 'Montserrat', sans-serif;
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-  .box2
-  {
-      position: relative;
-  }
 
   .scene
   {
@@ -166,3 +167,69 @@
   }
 
 
+  .surah
+  {
+      display: block;
+      margin: 0;
+      width: 100%;
+      height: auto;
+  }
+  
+  
+  .overlay-surah {
+      top: 0%;
+      position: absolute;
+      background-color: black;
+      opacity: 0.5;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: .6s ease;
+    }
+
+.games
+{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay-games {
+    top: 0%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .6s ease;
+  }
+
+
+.divider
+{
+    height: 150px;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg")
+}
+.footer 
+{
+    font-family: arial;
+    height: 150px;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}
+  
