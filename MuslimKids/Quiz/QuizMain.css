@@ -23,11 +23,11 @@ body{
 
 a{
   text-decoration: none;
-  color: #ef3d59;
+  color: red;
 }
 
 a:hover{
-  color:#f7b400;
+  color:yellow;
 }
 
 /*Navigation Bar*/

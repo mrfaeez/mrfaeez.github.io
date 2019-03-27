@@ -1,0 +1,46 @@
+body
+{
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+body h2
+{
+    font-family: 'Gotham', sans-serif;
+}
+
+body p
+{
+    font-family: sans-serif;
+}
+
+.content
+{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#btn
+{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+   
+}
