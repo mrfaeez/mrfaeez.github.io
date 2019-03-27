@@ -77,13 +77,49 @@ img
 
 .content{
     float: left;
-    width: 70%;
+    width: 80%;
     height: 100%;
     background : url("https://neighborscape.ca/wp-content/uploads/2018/03/NB_NS_Landing_Trades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
     font-family: 'Ubuntu', sans-serif;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     line-height: 1.6;
+}
+
+.description{
+    float: left;
+    width: 45%;
+    padding: 2.5%;
+    height: auto; 
+}
+
+.stories{
+    float: left;
+    width: 45%;
+    padding: 2.5%;
+    height: auto; 
+}
+
+.benefit{
+    float: left;
+    width: 45%;
+    height: auto;
+    padding: 2.5%;
+}
+
+.summary{
+    float: left;
+    width: 45%;
+    height: auto;
+    padding: 2.5%;
+}
+
+.credit{
+    clear: both;
 }
 
 .credit ul{
