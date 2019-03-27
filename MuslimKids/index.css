@@ -117,7 +117,7 @@
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap; 
     color: white;
-    font-size: 20px;
+    font-size: 100%;
     position: absolute;
     overflow: hidden;
     top: 50%;
