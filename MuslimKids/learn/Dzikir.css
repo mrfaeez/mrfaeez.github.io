@@ -1,7 +1,13 @@
 body{
+  width: 900px;
   margin: 0px;
-  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/96/23/DTHxgy.jpg");
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', Lato;
+  text-align: justify;
+  width: auto;
+  background-image: url("http://sfwallpaper.com/images/pastel-purple-wallpaper-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
 }
 
 /* start navbar css */
@@ -19,7 +25,11 @@ body{
 {
     height: 100%;
     width: 100%;
-   
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BuKKyFq/videoblocks-arabian-style-traditional-islamic-background-looped-animation_bvmmss2jb_thumbnail-full01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
 }
 
 .nav-bar
@@ -36,7 +46,7 @@ body{
     padding: 0;
     overflow: hidden;
     display: inline-block;
-    
+
 }
 
 .nav-bar li
@@ -84,10 +94,127 @@ body{
 /* end navbar css */
 
 
-.Dzikir .firstDzikr poverty
+.dzikr .firstDzikr
 {
   text-align: center;
-  width: 40%;
+  width: 100%;
   height: auto;
-  margin-top: 3%;
+  margin-top: 4%;
+
+}
+
+.dzikr .firstDzikr p
+{
+  float: right;
+  clear: both;
+  width: 40%;
+  margin-right: 9%;
+  text-align: justify;
+}
+
+.dzikr .firstDzikr img
+{
+    width: 500px;
+    height: 300;
+    float: left;
+    margin-left: 14%;
+    margin-top: -4%
+}
+
+.dzikr .secDzikr
+{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 25%;
+}
+
+.dzikr .secDzikr ul
+{
+    float: right;
+    clear: both;
+    width: 40%;
+    text-align: justify;
+    margin-right: 10%;
+}
+
+.dzikr .secDzikr img
+{
+  float: left;
+  margin-left: 23%;
+  margin-top: 1%;
+  width: 350px;
+  height: 200px;
+}
+
+
+.dzikr .ThirdDzikr
+{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20%;
+
+}
+.dzikr .ThirdDzikr p
+{
+  float: right;
+  text-align: justify;
+  width: 30%;
+  margin-right: 20%;
+
+}
+
+.dzikr .ThirdDzikr img
+{
+  float: left;
+  margin-left: 17%;
+  width: 450px;
+}
+
+.dzikr .FourthDzikr
+{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.dzikr .FourthDzikr img
+{
+  float: left;
+  margin-bottom: 20%;
+  margin-left: 24%;
+  width: 350px;
+}
+
+.dzikr .FourthDzikr p
+{
+  text-align: justify;
+  float: right;
+  width: 40%;
+  margin-bottom: 20%;
+  margin-right: 10%;
+}
+
+
+.footer
+{
+    font-family: arial;
+    height: 250px;
+    left: 0;
+    margin-top: 22%;
+    margin-bottom: 0;
+    width: 200%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
 }

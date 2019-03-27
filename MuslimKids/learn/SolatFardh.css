@@ -1,7 +1,9 @@
 body{
-  margin: 0px;
-  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/96/23/DTHxgy.jpg");
-  font-family: 'Montserrat', sans-serif;
+  width: 900px;
+  font-family: '';
+  text-align: justify;
+  width: auto;
+  background-color: #cad7dd;
 }
 
 /* start navbar css */
@@ -19,7 +21,10 @@ body{
 {
     height: 100%;
     width: 100%;
-   
+   background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BuKKyFq/videoblocks-arabian-style-traditional-islamic-background-looped-animation_bvmmss2jb_thumbnail-full01.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
 }
 
 .nav-bar
@@ -36,7 +41,7 @@ body{
     padding: 0;
     overflow: hidden;
     display: inline-block;
-    
+
 }
 
 .nav-bar li
@@ -86,6 +91,7 @@ body{
 
 .prayer{
   text-align: center;
+  font-size: 18px;
 }
 
 .prayer #condition #canceled
@@ -103,7 +109,8 @@ body{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 18px;
+  color: #000;
 }
 
 .active, .collapse:hover
@@ -130,10 +137,61 @@ body{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #DCDCDC;
+  text-align: center;
+  border: 1px solid black;
 }
 
 ul
 {
     padding-left: 5px;
+}
+
+.solatSunat p
+{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+
+}
+
+.solatSunat .Muakkad
+{
+  float: left;
+  margin-left: 25%;
+  margin-right: -15%;
+  font-size: 18px;
+  border: 2px solid #005E57;
+  padding: 5px;
+  margin-bottom: 3%;
+  clear: both;
+
+}
+.solatSunat .GhairMuakkad
+{
+  margin-right: 25%;
+  float: right;
+  border: 2px solid #005E57;
+  margin-bottom: 1%;
+
+}
+
+.footer
+{
+    font-family: arial;
+    height: 150px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 21%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
 }
