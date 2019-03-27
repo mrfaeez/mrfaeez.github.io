@@ -1,4 +1,11 @@
+body
+{
+    background-color: rgb(247, 247, 247);
+}
+
 /* start navbar css */
+
+
 #logo
 {
     width: 350px;
@@ -117,7 +124,7 @@
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap; 
     color: white;
-    font-size: 100%;
+    font-size: 90%;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -217,7 +224,7 @@
 .footer 
 {
     font-family: arial;
-    height: 150px;
+    height: 190px;
     left: 0;
     margin-bottom: 0;
     width: 100%;
