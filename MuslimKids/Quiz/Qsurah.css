@@ -80,12 +80,17 @@ img
 {
     display: none;
     position: absolute;
+    color: black;
+    background-color: #bdbdbd;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 
 #surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
 {
+  color: black;
     border-bottom: none;
     display: block;
 }
