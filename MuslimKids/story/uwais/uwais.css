@@ -13,7 +13,7 @@
 {
     height: 100%;
     width: 100%;
-   
+
 }
 
 .nav-bar
@@ -30,7 +30,7 @@
     padding: 0;
     overflow: hidden;
     display: inline-block;
-    
+
 }
 
 .nav-bar li
@@ -77,13 +77,14 @@
 
 /* end navbar css */
 
+
 /*content*/
 
 .spaceLeft{
     float: left;
     width: 15%;
-    height: 1300px;
-    background-image: linear-gradient(#BEF202, #88C425, #519548);
+    height: 3000px;
+    background-image: url("background.jpg");
 }
 
 .content{
@@ -124,13 +125,14 @@
 .spaceRight{
     float: left;
     width: 15%;
-    height: 1300px;
-    background-image: linear-gradient(#BEF202, #88C425, #519548);
+    height: 3000px;
+  background-image: url("background.jpg");
 }
 
 .footer{
     width: 100%;
     height: 30px;
     clear: both;
-    background-color: #519548;
+    background-image: url("background.jpg");
+}
 }
