@@ -176,13 +176,12 @@ ul
 
 }
 
-.footer
+.footer 
 {
     font-family: arial;
-    height: 150px;
+    height: 190px;
     left: 0;
     margin-bottom: 0;
-    margin-top: 21%;
     width: 100%;
     background-color: black;
     color: white;
