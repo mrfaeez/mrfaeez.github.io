@@ -176,21 +176,3 @@ ul
 
 }
 
-.footer 
-{
-    font-family: arial;
-    height: 190px;
-    left: 0;
-    margin-bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.footer a
-{
-    color: white;
-    text-decoration: none;
-}
