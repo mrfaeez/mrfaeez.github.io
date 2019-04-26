@@ -114,7 +114,9 @@ body{
     animation-iteration-count: infinite;
 }
 
-@keyframes rotate {
+@media only screen and (min-width: 768px){
+  
+  @keyframes rotate {
     0%   {
         top: 90px;
         left: 0px;
@@ -137,6 +139,43 @@ body{
         transform: rotate(-60deg); /* Standard syntax */
     }
   }
+
+  
+  @keyframes moving1 {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:300px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes moving2 {
+    0%   {left:0px; top:60px;}
+    40%  {left:0px; top:300px;}
+    90%  {left:0px; top:0px;}
+    100% {left:0px; top:60px;}
+  }
+
+  @keyframes moving3 {
+    0%   {left:0px; top:120px;}
+    30%  {left:0px; top:300px;}
+    80%  {left:0px; top:0px;}
+    100% {left:0px; top:120px;}
+  }
+
+  @keyframes moving4 {
+    0%   {left:0px; top:180px;}
+    20%  {left:0px; top:300px;}
+    70%  {left:0px; top:0px;}
+    100%  {left:0px; top:180px;}
+  }
+
+  @keyframes moving5 {
+    0%   {left:0px; top:240px;}
+    10%  {left:0px; top:300px;}
+    60%  {left:0px; top:0px;}
+    100% {left:0px; top:240px;}
+  }
+
+}
 
 .cloud {
     float: left;
@@ -185,43 +224,9 @@ body{
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  @keyframes moving1 {
-    0%   {left:0px; top:0px;}
-    50%  {left:0px; top:300px;}
-    100% {left:0px; top:0px;}
-  }
-
-  @keyframes moving2 {
-    0%   {left:0px; top:60px;}
-    40%  {left:0px; top:300px;}
-    90%  {left:0px; top:0px;}
-    100% {left:0px; top:60px;}
-  }
-
-  @keyframes moving3 {
-    0%   {left:0px; top:120px;}
-    30%  {left:0px; top:300px;}
-    80%  {left:0px; top:0px;}
-    100% {left:0px; top:120px;}
-  }
-
-  @keyframes moving4 {
-    0%   {left:0px; top:180px;}
-    20%  {left:0px; top:300px;}
-    70%  {left:0px; top:0px;}
-    100%  {left:0px; top:180px;}
-  }
-
-  @keyframes moving5 {
-    0%   {left:0px; top:240px;}
-    10%  {left:0px; top:300px;}
-    60%  {left:0px; top:0px;}
-    100% {left:0px; top:240px;}
   }
 
 .footer 
