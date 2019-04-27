@@ -378,7 +378,7 @@ button:active {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background: url('wallpaper3.jpg');
   margin: 15% auto; /* 15% from the top and centered */
   padding: 40px 5% 40px 5%;
   border: 1px solid #888;
