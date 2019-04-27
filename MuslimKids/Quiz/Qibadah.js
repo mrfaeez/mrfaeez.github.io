@@ -1,7 +1,7 @@
 function onSubmit(){
   var score = 0;
   var numOfQuestion = 5;
-  var ansArr =['a','d','b','a','a'];
+  var ansArr =['a','d','b','d','a'];
 
   var Q1 = document.forms['quiz']['Q1'].value;
   var Q2 = document.forms['quiz']['Q2'].value;
