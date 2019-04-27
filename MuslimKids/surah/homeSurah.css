@@ -99,25 +99,29 @@ body{
 
 .sun{
     float: left;
-    height: auto;
+    height: 350px;
     width: auto;
     position: relative;
     font-family: 'Patrick Hand', cursive;
     /*-webkit-animation-direction: alternate;*/
     -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: rotate1; /* Safari 4.0 - 8.0 */
     /*animation-direction: alternate;*/
-    animation-name: rotate;
-    animation-duration: 6s;
+    animation-name: rotate1;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 @media only screen and (min-width: 768px){
+
+  #content{
+    height: 1000px;
+  }
   
-  @keyframes rotate {
+  @keyframes rotate1 {
     0%   {
         top: 90px;
         left: 0px;
@@ -190,10 +194,10 @@ body{
     font-family: 'Patrick Hand', cursive;
     /*-webkit-animation-direction: alternate;*/
     -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     /*animation-direction: alternate;*/
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
@@ -223,14 +227,38 @@ body{
     animation-name: moving5;
   }
 
-.centered {
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
+  .cloud:hover img{
+    transition: .5s ease;
+    top: -10px;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    
+    -webkit-transform: rotateX(20deg);
+       -moz-transform: rotateX(20deg);
+        -ms-transform: rotateX(20deg);
+            transform: rotateX(20deg);
   }
 
+  .cloud:hover .centered{
+    opacity: 1;
+  }
+  
+
+.centered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+  }
+
+
   #search{
+    clear: both;
+    left: 40%;
     width: 400px;
     max-width: 100%;
     margin: 3rem auto;
