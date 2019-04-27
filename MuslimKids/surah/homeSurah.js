@@ -35,7 +35,7 @@ $(".quran").click(function(){
             var obj = JSON.parse(client.responseText);
             $('.loader').hide();
 
-            $('.modal-content h1').append(obj['data']['name']);
+            $('.modal-content h1').append(obj['data']['number'] + ". " + obj['data']['name']);
             for (var x = 0 ; x < Object.keys(obj['data']['ayahs']).length; x++){
                 $(".modal-content p").append(obj['data']['ayahs'][x]['text'] + "  (" + obj['data']['ayahs'][x]['numberInSurah'] + ")  ");
             }
@@ -62,7 +62,7 @@ $(".translate").click(function(){
             var obj = JSON.parse(client.responseText);
             $('.loader').hide();
 
-            $('.modal-content h1').append(obj['data']['name']);
+            $('.modal-content h1').append(obj['data']['number'] + ". Surah " + obj['data']['englishName']);
             for (var x = 0 ; x < Object.keys(obj['data']['ayahs']).length; x++){
                 $(".modal-content p").append(obj['data']['ayahs'][x]['text'] + "  (" + obj['data']['ayahs'][x]['numberInSurah'] + ")  ");
             }    
