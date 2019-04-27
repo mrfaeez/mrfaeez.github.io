@@ -1,7 +1,7 @@
 
 var client = new XMLHttpRequest();
 
-client.open("GET", "http://api.alquran.cloud/v1/surah", true);
+client.open("GET", "https://api.alquran.cloud/v1/surah", true);
 client.onreadystatechange = function() {
     if(client.readyState == 4) {
         var obj = JSON.parse(client.responseText);
@@ -29,7 +29,7 @@ $(".quran").click(function(){
     modal.style.display = "block";
     var noSurah = document.getElementById("option").value;
     
-    client.open("GET", "http://api.alquran.cloud/v1/surah/" + noSurah, true);
+    client.open("GET", "https://api.alquran.cloud/v1/surah/" + noSurah, true);
     client.onreadystatechange = function() {
         if(client.readyState == 4) {
             var obj = JSON.parse(client.responseText);
@@ -56,7 +56,7 @@ $(".translate").click(function(){
     modal.style.display = "block";
     var noSurah = document.getElementById("option").value;
     
-    client.open("GET", "http://api.alquran.cloud/v1/surah/" + noSurah + "/en.asad", true);
+    client.open("GET", "https://api.alquran.cloud/v1/surah/" + noSurah + "/en.asad", true);
     client.onreadystatechange = function() {
         if(client.readyState == 4) {
             var obj = JSON.parse(client.responseText);
