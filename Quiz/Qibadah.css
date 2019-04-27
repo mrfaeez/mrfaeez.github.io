@@ -11,11 +11,23 @@ body{
   right:20%;
   left: 20%;
   font-family: arial;
-  padding-left: 20px;
   background-image: linear-gradient(darkblue, turquoise);
   border-radius: 10px;
-  height: 800px;
+  height: 900px;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.question{
+  text-align: left;
+  border-style: solid;
+  border: 3 3 3 3;
+  border-radius: 10px;
+  background-color: blue;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 7px;
+  margin-bottom: 5px;
 }
 
 /*Navigation Bar*/
