@@ -56,39 +56,55 @@
         <div class="content">
 
     <div class="all">
+      <form name="quiz" onsubmit="return onSubmit()">
       <h2 style="text-align:center;">QUIZ</h2>
+      <div id="results">
+        <h2>You scored: Not yet attempted</h2>
+      </div>
 
+      <div class="question">
       1) Which surah's name carry the meaning 'smoke'?<br>
-      <input type="radio" name="Q1" value="f">a. Al-Fatihah<br>
-      <input type="radio" name="Q1" value="f">b. Al-Kafh<br>
-      <input type="radio" name="Q1" value="t">c. Ad-Dukkhan<br>
-      <input type="radio" name="Q1" value="f">d. Al-Ikhlas<br>
+      <input type="radio" name="Q1" value="a">a. Al-Fatihah<br>
+      <input type="radio" name="Q1" value="b">b. Al-Kafh<br>
+      <input type="radio" name="Q1" value="c">c. Ad-Dukkhan<br>
+      <input type="radio" name="Q1" value="d">d. Al-Ikhlas<br>
+      </div>
 
+      <div class="question">
       <br>2) Which is <strong>NOT</strong> the other name of surah Al-Fatihah?<br>
-      <input type="radio" name="Q2" value="f">a. Al-Hamd (Praises to Allah)<br>
-      <input type="radio" name="Q2" value="f">b. As-Salah (The prayer)<br>
-      <input type="radio" name="Q2" value="t">c. Al-Maghfirah (The Forgiveness)<br>
-      <input type="radio" name="Q2" value="f">d. Ash-Shifa (The cure)<br>
+      <input type="radio" name="Q2" value="a">a. Al-Hamd (Praises to Allah)<br>
+      <input type="radio" name="Q2" value="b">b. As-Salah (The prayer)<br>
+      <input type="radio" name="Q2" value="c">c. Al-Maghfirah (The Forgiveness)<br>
+      <input type="radio" name="Q2" value="d">d. Ash-Shifa (The cure)<br>
+      </div>
 
+      <div class="question">
       <br>3) Which is the benefit of reciting surah Al-Ikhlas?<br>
-      <input type="radio" name="Q3" value="f">a. Get more rizq'<br>
-      <input type="radio" name="Q3" value="t">b. House in jannah<br>
-      <input type="radio" name="Q3" value="f">c. Protection from animal<br>
-      <input type="radio" name="Q3" value="f">d. Secure against Dajjal<br>
+      <input type="radio" name="Q3" value="a">a. Get more rizq'<br>
+      <input type="radio" name="Q3" value="b">b. House in jannah<br>
+      <input type="radio" name="Q3" value="c">c. Protection from animal<br>
+      <input type="radio" name="Q3" value="d">d. Secure against Dajjal<br>
+      </div>
 
+      <div class="question">
       <br>4) How many verse are there in surah Al-Fatihah?<br>
-      <input type="radio" name="Q4" value="t">a. 7<br>
-      <input type="radio" name="Q4" value="f">b. 110<br>
-      <input type="radio" name="Q4" value="f">c. 59<br>
-      <input type="radio" name="Q4" value="f">d. 4<br>
+      <input type="radio" name="Q4" value="a">a. 7<br>
+      <input type="radio" name="Q4" value="b">b. 110<br>
+      <input type="radio" name="Q4" value="c">c. 59<br>
+      <input type="radio" name="Q4" value="d">d. 4<br>
+      </div>
 
+      <div class="question">
       <br>5) Where is the place of revelation of surah Yassin?<br>
-      <input type="radio" name="Q5" value="t">a. Makkah Al-Mukarramah<br>
-      <input type="radio" name="Q5" value="f">b. Madinah Al-Munawwarah<br>
+      <input type="radio" name="Q5" value="a">a. Makkah Al-Mukarramah<br>
+      <input type="radio" name="Q5" value="b">b. Madinah Al-Munawwarah<br>
+      </div>
 
+      <button type="submit">Submit Test</button>
+    </form>
     </div>
     </div>
   </div>
-
+    <script type="text/javascript" src="Qsurah.js"></script>
   </body>
 </html>
