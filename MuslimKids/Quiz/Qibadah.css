@@ -2,6 +2,7 @@ body{
   background-color: #EDEDF4;
   background: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
     /*image source: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8rqjH6Z3hAhUDjuYKHYW6AJcQjRx6BAgBEAU&url=http%3A%2F%2Fhdqwalls.com%2Fsmall-memory-wallpaper&psig=AOvVaw3RzJi6fjCyxJyjIUkzWBwQ&ust=1553620409566670*/
+  margin: 0px;
 }
 
 .content{
@@ -13,9 +14,14 @@ body{
   font-family: arial;
   background-image: linear-gradient(darkblue, turquoise);
   border-radius: 10px;
-  height: 900px;
+  height: 800px;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.all
+{
+  height:900px;
 }
 
 .question{
