@@ -87,7 +87,7 @@ body{
     padding: 80px 40px 50px;
     height: 100%;
     width: auto;
-    background: url("wallpaper2.jpg");
+    background: url("pictures/wallpaper2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -378,7 +378,7 @@ button:active {
 
 /* Modal Content/Box */
 .modal-content {
-  background: url('wallpaper3.jpg');
+  background: url('pictures/wallpaper3.jpg');
   margin: 15% auto; /* 15% from the top and centered */
   padding: 40px 5% 40px 5%;
   border: 1px solid #888;
