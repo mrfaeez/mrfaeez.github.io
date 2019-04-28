@@ -6,6 +6,23 @@ body{
   margin: 0%;
   background: #42acd6;
 }
+
+.background
+{
+    background: url(../pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+
+}
+
+#content-end
+{
+  background: url(../pic/foot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* start navbar css */
 
 #logo
