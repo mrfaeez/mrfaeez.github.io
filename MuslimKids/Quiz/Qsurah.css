@@ -32,11 +32,14 @@ body{
 
 /*Navigation Bar*/
 
-img
+
+.background img
 {
-    width: 350px;
-    height: 200px;
-    margin-left: 40%;
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -3%;
 }
 
