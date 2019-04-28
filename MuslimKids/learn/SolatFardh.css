@@ -1,6 +1,6 @@
 body{
   width: 900px;
-  font-family: '';
+  font-family: 'Bigger Love';
   text-align: justify;
   width: auto;
   background-color: #cad7dd;
@@ -176,3 +176,22 @@ ul
 
 }
 
+.footer
+{
+    clear: both;
+    font-family: arial;
+    height: 190px;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}
