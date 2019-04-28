@@ -44,3 +44,113 @@ a
     height: 40px;
    
 }
+
+/* start style for activity */
+
+.box1, .box2, .box4, .box5
+{
+    float: left;
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+.box1:hover .overlay-kids, .box2:hover .overlay-scene, .box4:hover .overlay-surah, .box5:hover .overlay-games{
+    width: 100%;
+  }
+
+#text {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap; 
+    color: white;
+    font-size: 0.7vw;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.kids
+{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay-kids {
+    top: 0%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .6s ease;
+  }
+
+
+  .scene
+  {
+      display: block;
+      margin: 0;
+      width: 100%;
+      height: auto;
+  }
+
+  .overlay-scene{
+    top: 0%;
+    width: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    height: 100%;
+    transition: .3s ease;
+  }
+
+
+  .surah
+  {
+      display: block;
+      margin: 0;
+      width: 100%;
+      height: auto;
+  }
+  
+  
+  .overlay-surah {
+      top: 0%;
+      position: absolute;
+      background-color: black;
+      opacity: 0.5;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: .6s ease;
+    }
+
+.games
+{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay-games {
+    top: 0%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .6s ease;
+  }
+
+  /* end style for activity */

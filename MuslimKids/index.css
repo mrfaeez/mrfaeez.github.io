@@ -1,10 +1,10 @@
 body
 {
-    background-color: rgb(247, 247, 247);
+    margin: 0%;
+    background: #42acd6;
 }
 
 /* start navbar css */
-
 
 #logo
 {
@@ -13,27 +13,25 @@ body
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
-}
-
-.background
-{
-    height: 100%;
-    width: 100%;
-   
+    margin-top: 2%;
 }
 
 .nav-bar
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0%;
+    font-weight: bold;
+    /* font-family: 'Krona One', sans-serif; */
+    margin-top: 1%;
+    height: 70px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
 }
 
 .nav-bar ul
 {
     list-style-type: none;
-    margin: 0%;
+    margin: 1%;
     padding: 0;
     overflow: hidden;
     display: inline-block;
@@ -50,177 +48,90 @@ body
     height: 25px;
     width: 100px;
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
     text-align: center;
     text-decoration: none;
+
+    position: relative;
+	font-weight: 600;
+	text-decoration: none;
+	transition: color .3s ease;
+    
 }
+
+.nav-bar li a::after
+{
+    --scale: 0;
+    content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: 3px;
+	background: rgb(49, 96, 161);
+	transform: scaleX(var(--scale));
+	transform-origin: var(--x) 50%;
+	transition: transform .3s cubic-bezier(.535, .05, .355, 1);
+}
+
 
 .nav-bar li a:hover
 {
     /* background-color: grey; */
     color: #ef3d59;
-    border-bottom: 3px solid black;
+    
+}
+
+.nav-bar li a:hover::after
+{
+    --scale: 1;
 }
 
 .dropsurah, .droplearn, .dropgames, .dropstory
 {
     display: none;
     position: absolute;
+    color: black;
     /* background-color: #f9f9f9; */
-    background-color: #e4e4e4;
+    background-color: #f7b400;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-shadow: none;
 }
-
 
 #surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
 {
     border-bottom: none;
     display: block;
+    text-shadow: none;
+    color: black;
 }
 
 /* end navbar css */
 
-#box3
+/* start content */
+
+.background
 {
-    position: relative;
-}
-
-.about
-{
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
-
-.overlay-about
-{
-    top: 0%;
-    position: absolute;
-    background-color: black;
-    opacity: 0.5;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-.box1, .box2, .box4, .box5
-{
-    float: left;
-    position: relative;
-    width: 25%;
-    height: auto;
-}
-
-.box1:hover .overlay-kids, .box2:hover .overlay-scene, .box4:hover .overlay-surah, .box5:hover .overlay-games{
-    width: 100%;
-  }
-
-#text {
-    font-family: 'Montserrat', sans-serif;
-    white-space: nowrap; 
-    color: white;
-    font-size: 1.5vw;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-.kids
-{
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: auto;
+    background: url(pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
 }
 
 
-.overlay-kids {
-    top: 0%;
-    position: absolute;
-    background-color: black;
-    opacity: 0.5;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .6s ease;
-  }
 
 
-  .scene
-  {
-      display: block;
-      margin: 0;
-      width: 100%;
-      height: auto;
-  }
-
-  .overlay-scene{
-    top: 0%;
-    width: 0;
-    position: absolute;
-    background-color: black;
-    opacity: 0.5;
-    overflow: hidden;
-    height: 100%;
-    transition: .3s ease;
-  }
 
 
-  .surah
-  {
-      display: block;
-      margin: 0;
-      width: 100%;
-      height: auto;
-  }
-  
-  
-  .overlay-surah {
-      top: 0%;
-      position: absolute;
-      background-color: black;
-      opacity: 0.5;
-      overflow: hidden;
-      width: 0;
-      height: 100%;
-      transition: .6s ease;
-    }
-
-.games
-{
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
 
 
-.overlay-games {
-    top: 0%;
-    position: absolute;
-    background-color: black;
-    opacity: 0.5;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .6s ease;
-  }
+/* end content */
 
-
-.divider
-{
-    height: 150px;
-    width: 100%;
-    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg")
-}
+/* start footer */
 .footer 
 {
     font-family: arial;
@@ -239,4 +150,4 @@ body
     color: white;
     text-decoration: none;
 }
-  
+/* end footer */
