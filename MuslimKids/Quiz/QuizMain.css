@@ -140,6 +140,7 @@ a:hover{
 /* start footer */
 .footer 
 {
+    clear: both;
     font-family: arial;
     height: 190px;
     left: 0;
@@ -156,4 +157,5 @@ a:hover{
     color: white;
     text-decoration: none;
 }
+
 /* end footer */
