@@ -30,36 +30,38 @@ body{
   margin-bottom: 5px;
 }
 
-/*Navigation Bar*/
-img
-{
-    width: 350px;
-    height: 200px;
-    margin-left: 35%;
-    margin-top: -3%;
-}
+/* start navbar css */
 
-.background
+#logo
 {
-    height: 100%;
-    width: 100%;
-
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 .nav-bar
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    /* font-family: 'Krona One', sans-serif; */
+    margin-top: 1%;
+    height: 70px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
 }
 
 .nav-bar ul
 {
     list-style-type: none;
-    margin: 0%;
+    margin: 1%;
     padding: 0;
     overflow: hidden;
     display: inline-block;
-
+    
 }
 
 .nav-bar li
@@ -77,13 +79,40 @@ img
     text-decoration: none;
     text-align: center;
     text-decoration: none;
+
+    position: relative;
+	font-weight: 600;
+	text-decoration: none;
+	transition: color .3s ease;
+    
 }
+
+.nav-bar li a::after
+{
+    --scale: 0;
+    content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: 3px;
+	background: rgb(49, 96, 161);
+	transform: scaleX(var(--scale));
+	transform-origin: var(--x) 50%;
+	transition: transform .3s cubic-bezier(.535, .05, .355, 1);
+}
+
 
 .nav-bar li a:hover
 {
     /* background-color: grey; */
-    color: #BEF202;
-    border-bottom: 3px solid black;
+    color: #ef3d59;
+    
+}
+
+.nav-bar li a:hover::after
+{
+    --scale: 1;
 }
 
 .dropsurah, .droplearn, .dropgames, .dropstory
@@ -91,16 +120,20 @@ img
     display: none;
     position: absolute;
     color: black;
-    background-color: #bdbdbd;
+    /* background-color: #f9f9f9; */
+    background-color: #f7b400;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-shadow: none;
 }
-
 
 #surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
 {
-  color: black;
     border-bottom: none;
     display: block;
+    text-shadow: none;
+    color: black;
 }
+
+/* end navbar css */
