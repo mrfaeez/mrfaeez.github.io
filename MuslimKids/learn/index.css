@@ -1,40 +1,7 @@
-body{
-  margin:0%;
-  background: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
-  /*image source: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8rqjH6Z3hAhUDjuYKHYW6AJcQjRx6BAgBEAU&url=http%3A%2F%2Fhdqwalls.com%2Fsmall-memory-wallpaper&psig=AOvVaw3RzJi6fjCyxJyjIUkzWBwQ&ust=1553620409566670*/
-}
-
-.content
+body
 {
-    padding: 80px 40px 50px;
-    height: 700px;
-    width: auto;
-}
-
-.games1{
-  font-family: 'Audiowide', cursive;
-  font-size: 4em;
-  color:turquoise;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.type{
-  font-family: 'Audiowide', cursive;
-  font-size: 3em;
-  color:yellow;
-  text-align: center;
-  word-spacing: 500px;
-  margin-top: 10px;
-}
-
-a{
-  text-decoration: none;
-  color: red;
-}
-
-a:hover{
-  color:yellow;
+    margin: 0%;
+    background: #42acd6;
 }
 
 /* start navbar css */
@@ -144,10 +111,29 @@ a:hover{
 }
 
 /* end navbar css */
+
+/* start content */
+
+.background
+{
+    background: url(pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* end content */
+
 /* start footer */
 .footer 
 {
-    clear: both;
     font-family: arial;
     height: 190px;
     left: 0;
@@ -164,5 +150,4 @@ a:hover{
     color: white;
     text-decoration: none;
 }
-
 /* end footer */
