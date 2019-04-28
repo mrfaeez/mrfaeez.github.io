@@ -28,6 +28,11 @@ body{
   margin-right: 5%;
   padding: 7px;
   margin-bottom: 5px;
+  border-color:yellow;
+}
+
+.quiz
+{
   color: white;
 }
 
