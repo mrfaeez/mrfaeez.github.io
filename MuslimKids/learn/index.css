@@ -1,12 +1,7 @@
-body{
-  font-family: 'Merriweather', Lato;
-  text-align: justify;
-  background-image: url("http://sfwallpaper.com/images/pastel-purple-wallpaper-6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  margin: 0 auto;
-  background: #42acd6;
+body
+{
+    margin: 0%;
+    background: #42acd6;
 }
 
 /* start navbar css */
@@ -30,7 +25,7 @@ body{
     margin-top: 1%;
     height: 70px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-
+    
 }
 
 .nav-bar ul
@@ -40,7 +35,7 @@ body{
     padding: 0;
     overflow: hidden;
     display: inline-block;
-
+    
 }
 
 .nav-bar li
@@ -63,7 +58,7 @@ body{
 	font-weight: 600;
 	text-decoration: none;
 	transition: color .3s ease;
-
+    
 }
 
 .nav-bar li a::after
@@ -86,7 +81,7 @@ body{
 {
     /* background-color: grey; */
     color: #ef3d59;
-
+    
 }
 
 .nav-bar li a:hover::after
@@ -117,107 +112,30 @@ body{
 
 /* end navbar css */
 
+/* start content */
 
-.dzikr .firstDzikr
+.background
 {
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-
-}
-
-.dzikr .firstDzikr p
-{
-  float: right;
-  clear: both;
-  width: 40%;
-  text-align: justify;
-}
-
-.dzikr .firstDzikr img
-{
-    width: 500px;
-    height: 300;
-    float: left;
-
-}
-
-.dzikr .secDzikr
-{
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-}
-
-.dzikr .secDzikr ul
-{
-    float: right;
-    clear: both;
-    width: 40%;
-    text-align: justify;
-
-}
-
-.dzikr .secDzikr img
-{
-  float: left;
-  width: 350px;
-  height: 200px;
+    background: url(pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
 }
 
 
-.dzikr .ThirdDzikr
+
+
+
+
+
+
+/* end content */
+
+/* start footer */
+.footer 
 {
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-
-}
-.dzikr .ThirdDzikr p
-{
-  float: right;
-  text-align: justify;
-  width: 30%;
-
-
-}
-
-.dzikr .ThirdDzikr img
-{
-  float: left;
-  width: 450px;
-}
-
-.dzikr .FourthDzikr
-{
-  text-align: center;
-  width: 100%;
-  height: auto;
-}
-
-.dzikr .FourthDzikr img
-{
-  float: left;
-  width: 350px;
-}
-
-.dzikr .FourthDzikr p
-{
-  text-align: justify;
-  float: right;
-  width: 40%;
-  padding-bottom: 5%;
-
-}
-
-.footer
-{
-    clear: both;
     font-family: arial;
-    height: 230px;
+    height: 190px;
     left: 0;
     margin-bottom: 0;
     width: 100%;
@@ -232,3 +150,4 @@ body{
     color: white;
     text-decoration: none;
 }
+/* end footer */
