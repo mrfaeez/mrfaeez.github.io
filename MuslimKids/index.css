@@ -114,12 +114,30 @@ body
 
 /* start content */
 
-.background
+#content-start
 {
     background: url(pic/background.jpg);
     background-repeat: no-repeat;
-    background-position-y: top;
     background-size: cover;
+}
+
+#content-end
+{
+    background: url(pic/foot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-us
+{
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    left: 45%;
 }
 
 
