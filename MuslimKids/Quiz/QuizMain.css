@@ -1,7 +1,8 @@
 body{
   margin:0%;
-  background: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
-  /*image source: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8rqjH6Z3hAhUDjuYKHYW6AJcQjRx6BAgBEAU&url=http%3A%2F%2Fhdqwalls.com%2Fsmall-memory-wallpaper&psig=AOvVaw3RzJi6fjCyxJyjIUkzWBwQ&ust=1553620409566670*/
+  /*background: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
+  /*image source: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi8rqjH6Z3hAhUDjuYKHYW6AJcQjRx6BAgBEAU&url=http%3A%2F%2Fhdqwalls.com%2Fsmall-memory-wallpaper&psig=AOvVaw3RzJi6fjCyxJyjIUkzWBwQ&ust=1553620409566670*/*/
+background: url("../pictures/wallpaper2.jpg");
 }
 
 .content
