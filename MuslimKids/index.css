@@ -135,9 +135,9 @@ body
 }
 
 
-#about-us
+#why-us
 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.199);
     border: #ef3d59;
     font-size: 110%;
     padding:1%;
@@ -148,9 +148,15 @@ body
 
 }
 
-#about-us h1
+#why-us h1
 {
     font-family: 'Fredericka the Great', cursive;
+}
+
+#why-us img
+{
+    width: 6%;
+    height: auto;
 }
 
 
