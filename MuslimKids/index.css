@@ -121,8 +121,6 @@ body
 
 /* start content */
 
-
-
 #content
 {
     padding: 0%;
@@ -135,6 +133,36 @@ body
 }
 
 #content h1 {font-family: 'Fredericka the Great', cursive;color: rgb(110, 83, 67);}
+
+#pic{width: 30%;float: left;}
+
+#pic img
+{
+    width: 25vw;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#welcome::after
+{
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+#about
+{
+    float: left;
+    width: 40%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.096);
+    font-family: 'Raleway', sans-serif;
+}
 
 
 #why-us
