@@ -38,17 +38,17 @@ background: url("../pic/background.jpg");
 .cir{
   position: absolute;
   text-align: center;
-  animation: circle1 10s linear infinite;
+  animation: circle1 15s linear infinite;
 }
 .cir1{
   position: absolute;
   text-align: center;
-  animation: circle2 10s linear infinite;
+  animation: circle2 15s linear infinite;
 }
 .cir2{
   position: absolute;
   text-align: center;
-  animation: circle3 10s linear infinite;
+  animation: circle3 15s linear infinite;
 }
 
 @keyframes circle1 {
