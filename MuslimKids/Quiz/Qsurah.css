@@ -19,8 +19,6 @@ button{
 button:hover{
   color: blue;
   background-color: turquoise;
-  height: 31px;
-  width: 104px;
 }
 
 .content{
