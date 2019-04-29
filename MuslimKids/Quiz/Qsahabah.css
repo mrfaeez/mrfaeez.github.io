@@ -6,6 +6,20 @@ body{
   background: url("../pic/background.jpg");
 }
 
+button{
+  background-color: #00BCD4;
+  height: 30px;
+  width: 100px;
+  border-radius: 90px;
+  color: darkblue;
+  border-color: #9C27B0;
+}
+
+button:hover{
+  color: blue;
+  background-color: turquoise;
+}
+
 .content{
 
   margin-left: 20px;
