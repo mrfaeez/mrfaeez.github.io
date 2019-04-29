@@ -6,7 +6,7 @@ body
 
 .background
 {
-    background: url(pic/background.jpg);
+    background: url(pic/background.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,7 +132,8 @@ body
     text-align: center;
 }
 
-#content h1 {font-family: 'Fredericka the Great', cursive;color: rgb(110, 83, 67);}
+#content h1 {font-family: 'Fredericka the Great', cursive;color: rgb(110, 83, 67);font-size: 2.5vw;}
+#content p {font-family: 'Raleway', sans-serif;font-size: 1.3vw;}
 
 #pic{width: 30%;float: left;}
 
@@ -162,37 +163,80 @@ body
     color: white;
     background-color: rgba(0, 0, 0, 0.096);
     font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
 }
 
-
+/* start why us style */
 #why-us
 {
-    background-color: rgba(255, 255, 255, 0.199);
+    background: url(pic/texture.jpg) fixed;
+    /* background-color: rgba(255, 255, 255, 0.199); */
     border: #ef3d59;
     font-size: 110%;
-    padding:1%;
+    padding:2%;
     margin-left: 0%;
     margin-right: 0%;
     color: rgb(110, 83, 67);
     font-family: 'Open sans', sans-serif;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
 
 }
 
-#why-us h1
+#whyy
 {
-    font-family: 'Fredericka the Great', cursive;
-}
-
-#why-us img
-{
-    width: 6%;
+    float: left;
+    width: 20%;
     height: auto;
+    margin-left: 5%;
+    
 }
 
+#whyy img{width: 50%;height: auto;}
 
+#why-image::after
+{
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+/* end why us style */
+
+/* start feedback style */
+
+#feedback
+{
+    padding: 5%;
+    background: url(pic/polka.jpg) fixed;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
+}
+
+#feedback p
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+}
+/* end feedback style */
 
 /* start style for activity */
 
+#activity
+{
+    background: url(pic/texture.jpg) fixed;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
+    
+}
+
+#activity::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
 .box1, .box2, .box4, .box5
 {
     float: left;
