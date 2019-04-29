@@ -6,6 +6,20 @@ body{
   background: url("../pic/background.jpg");
 }
 
+button{
+  background-color: #00BCD4;
+  height: 30px;
+  width: 100px;
+  border-radius: 90px;
+  color: darkblue;
+  border-color: #9C27B0;
+}
+
+button:hover{
+  color: blue;
+  background-color: turquoise;
+}
+
 .content{
 
   margin-left: 20px;
@@ -14,7 +28,7 @@ body{
   left: 20%;
   font-family: arial;
   background-image: linear-gradient(darkblue, turquoise);
-  border-radius: 10px;
+  border-radius: 45px;
   height: 800px;
   margin-bottom: 30px;
   text-align: center;
