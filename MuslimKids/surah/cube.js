@@ -8,7 +8,7 @@ function autocheck(){
 
 var interval = setInterval(autocheck, 3000);
 
-$('.three-d-item').hover(function(ev){
+$('.three-d-item, #bullets').hover(function(ev){
     clearInterval(interval);
 }, function(ev){
     interval = setInterval( autocheck, 3000);
