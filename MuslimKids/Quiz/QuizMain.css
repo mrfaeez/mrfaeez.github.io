@@ -16,7 +16,7 @@ background: url("../pic/background.jpg");
 .games1{
   font-family: 'Audiowide', cursive;
   font-size: 4em;
-  color:ivory;
+  color:darkblue;
   text-align: center;
   margin-top: 50px;
 }
@@ -33,6 +33,7 @@ background: url("../pic/background.jpg");
 a{
   text-decoration: none;
   color: red;
+  transition: color 0.5s;
 }
 
 a:hover{
@@ -60,7 +61,7 @@ a:hover{
     margin-top: 1%;
     height: 70px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    
+
 }
 
 .nav-bar ul
@@ -70,7 +71,7 @@ a:hover{
     padding: 0;
     overflow: hidden;
     display: inline-block;
-    
+
 }
 
 .nav-bar li
@@ -93,7 +94,7 @@ a:hover{
 	font-weight: 600;
 	text-decoration: none;
 	transition: color .3s ease;
-    
+
 }
 
 .nav-bar li a::after
@@ -116,7 +117,7 @@ a:hover{
 {
     /* background-color: grey; */
     color: #ef3d59;
-    
+
 }
 
 .nav-bar li a:hover::after
@@ -147,7 +148,7 @@ a:hover{
 
 /* end navbar css */
 /* start footer */
-.footer 
+.footer
 {
     clear: both;
     font-family: arial;

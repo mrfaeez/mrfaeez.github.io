@@ -13,11 +13,14 @@ button{
   border-radius: 90px;
   color: darkblue;
   border-color: #9C27B0;
+  transition: all 0.2s;
 }
 
 button:hover{
   color: blue;
   background-color: turquoise;
+  height: 31px;
+  width: 104px;
 }
 
 .content{
