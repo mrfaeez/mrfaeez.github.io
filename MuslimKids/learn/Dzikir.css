@@ -6,7 +6,17 @@ body{
   background-size: cover;
   font-size: 20px;
   margin: 0 auto;
-  background: #42acd6;
+  background: #44a6d7;
+}
+
+.background
+{
+    margin: 0%;
+    background: url(../pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+
 }
 
 /* start navbar css */

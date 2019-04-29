@@ -9,6 +9,15 @@ body{
   background-size: cover;
   background: #42acd6;
 }
+.background
+{
+    margin: 0%;
+    background: url(../pic/background.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+
+}
 
 /* start navbar css jaloolo*/
 
