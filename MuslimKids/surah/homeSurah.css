@@ -5,7 +5,7 @@ body{
 
 #content 
 {
-    padding: 80px 40px 50px;
+    padding: 50px 0px 50px;
     height: 100%;
     width: auto;
     font-family: 'Lobster', cursive;
@@ -32,10 +32,6 @@ body{
 }
 
 @media only screen and (min-width: 768px){
-
-  #content{
-    height: 1000px;
-  }
   
   @keyframes rotate1 {
     0%   {
@@ -98,10 +94,17 @@ body{
 
 }
 
+.floating{
+  width: auto;
+  height: 450px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .cloud {
     float: left;
     margin: 10px;
-    height: 450px;
+    height: 200px;
     width: auto;
     position: relative;
     text-align: center;

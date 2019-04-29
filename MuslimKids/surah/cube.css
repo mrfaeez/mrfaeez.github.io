@@ -1,6 +1,8 @@
 .cubeName{
    text-align: center;
-   font-family: 'Do Hyeon', sans-serif;
+   font-family: 'Fredericka the Great', cursive;
+   color: rgb(110, 83, 67);
+   font-size: 2.5vw;
 }
 
 .three-d-container{
