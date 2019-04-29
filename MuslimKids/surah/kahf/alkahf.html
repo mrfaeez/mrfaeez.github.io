@@ -1,68 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>MuslimKids!</title>
-    <link rel="shortcut icon" href="../../logo.png" type="image/x-icon">   
-    <link rel="stylesheet" type="text/css" media="screen" href="alkahf.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+        <link rel="shortcut icon" href="../../pic/logo-icon.png" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MuslimKids!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../surah.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
 <body>
+    <option id="noSurah" value="18"></option>
     <div class="background">
-        <img src="../../logo.png" alt="logo">
-        <div class="nav-bar">
-            <ul>
-                <li id="home"><a href="../../index.html">HOME</a></li>
-                <li id="learn">
-                    <a href="#learn">LEARN</a>
-                    <div class="droplearn">
-                        <a href="../../learn/SolatFardh.html">Prayer</a>
-                        <a href="../../learn/Doa.html">Du'a</a>
-                        <a href="../../learn/Dzikir.html">Zikr</a>
-                    </div>
-                </li>
-                <li id="story">
-                    <a href="#story">STORY</a>
-                    <div class="dropstory">
-                        <a href="../../story/hijrah/hijrah.html">Hijrah</a>
-                        <a href="../../story/uwais/uwais.html">Uwais</a>
-                        <a href="../../story/fathulmakkah/fathulmakkah.html">Fathul</a>
-                        <a href="../../story/abdullaibnmasud/abdullaibnmasud.html">Abdullah</a>
-                        <a href="../../story/bilalbinrabah/bilalbinrabah.html">Bilal</a>
-                    </div>
-                </li>
-                <li id="surah">
-                    <a href="../homeSurah.html">SURAH</a>
-                    <div class="dropsurah">
-                        <a href="../alfatihah/alfatihah.html">Al-Fatihah</a>
-                        <a href="alkahf.html">AL-Kahfi</a>
-                        <a href="../yasin/yasin.html">Yaseen</a>
-                        <a href="../dukhan/dukhan.html">Ad-Dukhan</a>
-                        <a href="../ikhlas/ikhlas.html">Al-Ikhlas</a>
-                    </div>
-                </li>
-                <li id="games">
-                    <a href="../../Quiz/QuizMain.html">GAMES</a>
-                    <div class="dropgames">
-                        <a href="../../Quiz/Qsahabah.html">Sahabah</a>
-                        <a href="../../Quiz/Qsurah.html">Al-Quran</a>
-                        <a href="../../Quiz/Qibadah.html">Ibadah</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+            <div class="nav-bar">
+                    <ul>
+                        <a href="../../index.html"><img src="../../pic/logo.png" alt="logo" id="logo"></a>
+                        <script src="../../navbar.js"></script>
+                        <link rel="stylesheet" href="../../navbar.css">
+                        <li id="learn">
+                            <a href="#learn">LEARN</a>
+                            <div class="droplearn">
+                                <a href="../../learn/SolatFardh.html">Prayer</a>
+                                <a href="../../learn/Doa.html">Du'a</a>
+                                <a href="../../learn/Dzikir.html">Zikr</a>
+                            </div>
+                        </li>
+                        <li id="story">
+                            <a href="#story">STORY</a>
+                            <div class="dropstory">
+                                <a href="../../story/hijrah/hijrah.html">Hijrah</a>
+                                <a href="../../story/uwais/uwais.html">Uwais</a>
+                                <a href="../../story/fathulmakkah/fathulmakkah.html">Fathul</a>
+                                <a href="../../story/abdullaibnmasud/abdullaibnmasud.html">Abdullah</a>
+                                <a href="../../story/bilalbinrabah/bilalbinrabah.html">Bilal</a>
+                            </div>
+                        </li>
+                        <li id="surah">
+                            <a href="../homeSurah.html">SURAH</a>
+                            <div class="dropsurah">
+                                <a href="../alfatihah/alfatihah.html">Al-Fatihah</a>
+                                <a href="alkahf.html">AL-Kahfi</a>
+                                <a href="../yasin/yasin.html">Yaseen</a>
+                                <a href="../dukhan/dukhan.html">Ad-Dukhan</a>
+                                <a href="../ikhlas/ikhlas.html">Al-Ikhlas</a>
+                            </div>
+                        </li>
+                        <li id="games">
+                            <a href="../../Quiz/QuizMain.html">GAMES</a>
+                            <div class="dropgames">
+                                <a href="../../Quiz/Qsahabah.html">Sahabah</a>
+                                <a href="../../Quiz/Qsurah.html">Al-Quran</a>
+                                <a href="../../Quiz/Qibadah.html">Ibadah</a>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
     </div>
     <div class="content">
+        <div class="youtube">
+                <h1>18. Surah Al Kahf (The Cave)</h1>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cSYyJkBr6P4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="../../images/boy2.png" alt="">
+                <div class="chatbox">
+                    <p>Let's listen to the</p>
+                    <p>recitation of surah.</p>
+                </div>
+        </div>
+        <div id="cube">
+            <link rel="stylesheet" href="../cube.css">
+            <h1 class="cubeName">Explore about the Surah in:</h1>
+            <br>
+            <section class="three-d-container">
+                        <input type="radio" id="bullets" class="three-d-bullet a" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet b" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet c" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet d" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet e" name="three-d">
+                        <input type="radio" id="bullets" checked class="three-d-bullet f" name="three-d">
+                        <div class="three-d-cube">
+                            <figure class="three-d-item">
+                                <div id="description">
+                                        <img src="../pictures/description.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="benefit">
+                                        <img src="../pictures/benefit.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="translation">
+                                        <img src="../pictures/translation.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id='summary'>
+                                        <img src="../pictures/summary.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="names">
+                                        <img src="../pictures/names.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <a href="../homeSurah.html" id="home">
+                                        <img src="../pictures/home.jpg" alt="">
+                                </a>
+                            </figure>
+                        </div>
+            </section>
+            <br>
+            <h1 class="cubeName">-Cube of Knowledge-</h1>
+        </div>
         
-
-        <h1 style="text-align: center; font-family: 'Do Hyeon', sans-serif;">18. Surah Al Kahf (The Cave)</h1>
-        <br>
-        <iframe style="box-shadow: 2px 2px gray;" width="100%" height="315" src="https://www.youtube.com/embed/cSYyJkBr6P4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="first">
+        <!-- The Modal -->
+        <div id="myModal">
+            <span class="close">&times;</span>
+            <!-- Modal content -->
             <div class="description">
                 <h3>Description of Surah</h3>
-                <table>
+                <table id="inside">
                     <tr>
                         <td>No. of chapter</td>
                         <td>: 18th chapter</td>
@@ -77,25 +137,19 @@
                     </tr>
                 </table>
             </div>
-                    
-            <div class="stories">
-                <h3>The Stories in Surah Al Kahf</h3>
+
+            <div class="names">
+                <h3>Stories in Surah Al Kahf</h3>
                 <ol>
                     <li>People of the cave.</li>
                     <li>The man who had two gardens.</li>
                     <li>Prophet Musa and Khidir.</li>
                     <li>Zulqarnain, the pious ruler</li>
                 </ol>
-            </div> 
-        </div>           
-            <br>
-            <div class="second">
-                <div class="summary">
-                    <h3>Brief Summary of Surah</h3>
-                    <p>The Surah answers some questions that the Mushrikin of Makkah posed to the Prophet –peace be upon him.  The answers came in a very clear way and also challenged them to accept the message of Islam. In this Surah we have the stories of the People of the Cave, the man who had two gardens and was very proud of himself, Prophet Moses with an angelic figure, Zulqarnain a pious ruler.  These stories are told to emphasize the value of faith, knowledge and patience, the relativity of time, and the variety in this world.</p>
-                </div>
-                <div class="benefit">
-                    <h3>Benefits of Surah</h3>
+            </div>
+
+            <div class="benefit">
+                <h3>Benefits of Surah</h3>
                     <ul>
                         <li>
                             <p>It is narrated by Abu Saeed al-Khurdi, who said:</p>
@@ -113,16 +167,32 @@
                             <p>Hazrat Ibn Mardwiyah Al Daiyaa (RA) said that Prophet Muhammad (PBUH) said in a hadith:</p>
                             <p style="font-style:italic">“Whoever reads Surah al Kahf on yaumul Jummah, he is immune for 8 days from all fitnah that will happen. When the Dajjal comes out, he will be immune to him.”</p>
                         </li>
-                    </ul>        
-                </div>
+                    </ul>
             </div>
+
+            <div class="translation">
+                    <h3>Translation of Surah</h3>
+                    <p style="font-style:italic"></p>
+                    <div class="loader">
+                        <img src="https://cdn.dribbble.com/users/1626465/screenshots/4617986/__-2.gif" alt="">
+                        <h2>Loading...</h2>
+                    </div>
+                
+            </div>
+
+            <div class="summary">
+                <h3>Brief Summary of Surah</h3>
+                <p>The Surah answers some questions that the Mushrikin of Makkah posed to the Prophet –peace be upon him.  The answers came in a very clear way and also challenged them to accept the message of Islam. In this Surah we have the stories of the People of the Cave, the man who had two gardens and was very proud of himself, Prophet Moses with an angelic figure, Zulqarnain a pious ruler.  These stories are told to emphasize the value of faith, knowledge and patience, the relativity of time, and the variety in this world.</p>
+            </div>
+
+        </div>
+        <br>
         <br><br><br>
         <div class="credit">
-            <p style="font-size: 10px; text-align:center;">Source: </p>
-            <ul>
-                <li>http://www.qurantutor.com/blog/virtues-and-benefits-of-reading-reciting-surah-al-kahf/</li>
-                <li>https://www.soundvision.com/article/a-thematic-introduction-to-the-surahs-of-the-qur-an#18</li>
-            </ul>
+            <p style="font-size: 10px; text-align:center;">Source: 
+                <a href="http://www.qurantutor.com/blog/virtues-and-benefits-of-reading-reciting-surah-al-kahf/">qurantutor</a>,
+                <a href="https://www.soundvision.com/article/a-thematic-introduction-to-the-surahs-of-the-qur-an#18">soundvision</a>
+            </p>
         </div>
     </div>
 
@@ -135,5 +205,9 @@
             <a href="http://www.facebook.com"><img src="https://image.flaticon.com/icons/svg/220/220200.svg" alt="fb" style="height: 30px;width : 50px;"></a>
             <a href="http://www.linkedin.com"><img src="https://image.flaticon.com/icons/svg/220/220201.svg" alt="linkedin" style="height: 30px;width : 50px;"></a>
     </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../surah.js"></script>
+    <script src="../cube.js"></script>
 </body>
 </html>

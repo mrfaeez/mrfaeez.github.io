@@ -1,115 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MuslimKids!</title>
-    <link rel="shortcut icon" href="../../logo.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="ikhlas.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-    <script src="main.js"></script>
+        <link rel="shortcut icon" href="../../pic/logo-icon.png" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MuslimKids!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../surah.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
 <body>
+    <option id="noSurah" value="112"></option>
     <div class="background">
-        <img src="../../logo.png" alt="logo">
-        <div class="nav-bar">
-            <ul>
-                <li id="home"><a href="../../index.html">HOME</a></li>
-                <li id="learn">
-                    <a href="#learn">LEARN</a>
-                    <div class="droplearn">
-                        <a href="../../learn/SolatFardh.html">Prayer</a>
-                        <a href="../../learn/Doa.html">Du'a</a>
-                        <a href="../../learn/Dzikir.html">Zikr</a>
-                    </div>
-                </li>
-                <li id="story">
-                    <a href="#story">STORY</a>
-                    <div class="dropstory">
-                        <a href="../../story/hijrah/hijrah.html">Hijrah</a>
-                        <a href="../../story/uwais/uwais.html">Uwais</a>
-                        <a href="../../story/fathulmakkah/fathulmakkah.html">Fathul</a>
-                        <a href="../../story/abdullaibnmasud/abdullaibnmasud.html">Abdullah</a>
-                        <a href="../../story/bilalbinrabah/bilalbinrabah.html">Bilal</a>
-                    </div>
-                </li>
-                <li id="surah">
-                    <a href="../homeSurah.html">SURAH</a>
-                    <div class="dropsurah">
-                        <a href="../alfatihah/alfatihah.html">Al-Fatihah</a>
-                        <a href="../kahf/alkahf.html">AL-Kahfi</a>
-                        <a href="../yasin/yasin.html">Yaseen</a>
-                        <a href="../dukhan/dukhan.html">Ad-Dukhan</a>
-                        <a href="ikhlas.html">Al-Ikhlas</a>
-                    </div>
-                </li>
-                <li id="games">
-                    <a href="../../Quiz/QuizMain.html">GAMES</a>
-                    <div class="dropgames">
-                        <a href="../../Quiz/Qsahabah.html">Sahabah</a>
-                        <a href="../../Quiz/Qsurah.html">Al-Quran</a>
-                        <a href="../../Quiz/Qibadah.html">Ibadah</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+            <div class="nav-bar">
+                    <ul>
+                        <a href="../../index.html"><img src="../../pic/logo.png" alt="logo" id="logo"></a>
+                        <script src="../../navbar.js"></script>
+                        <link rel="stylesheet" href="../../navbar.css">
+                        <li id="learn">
+                            <a href="#learn">LEARN</a>
+                            <div class="droplearn">
+                                <a href="../../learn/SolatFardh.html">Prayer</a>
+                                <a href="../../learn/Doa.html">Du'a</a>
+                                <a href="../../learn/Dzikir.html">Zikr</a>
+                            </div>
+                        </li>
+                        <li id="story">
+                            <a href="#story">STORY</a>
+                            <div class="dropstory">
+                                <a href="../../story/hijrah/hijrah.html">Hijrah</a>
+                                <a href="../../story/uwais/uwais.html">Uwais</a>
+                                <a href="../../story/fathulmakkah/fathulmakkah.html">Fathul</a>
+                                <a href="../../story/abdullaibnmasud/abdullaibnmasud.html">Abdullah</a>
+                                <a href="../../story/bilalbinrabah/bilalbinrabah.html">Bilal</a>
+                            </div>
+                        </li>
+                        <li id="surah">
+                            <a href="../homeSurah.html">SURAH</a>
+                            <div class="dropsurah">
+                                <a href="../alfatihah/alfatihah.html">Al-Fatihah</a>
+                                <a href="../kahf/alkahf.html">AL-Kahfi</a>
+                                <a href="../yasin/yasin.html">Yaseen</a>
+                                <a href="../dukhan/dukhan.html">Ad-Dukhan</a>
+                                <a href="ikhlas.html">Al-Ikhlas</a>
+                            </div>
+                        </li>
+                        <li id="games">
+                            <a href="../../Quiz/QuizMain.html">GAMES</a>
+                            <div class="dropgames">
+                                <a href="../../Quiz/Qsahabah.html">Sahabah</a>
+                                <a href="../../Quiz/Qsurah.html">Al-Quran</a>
+                                <a href="../../Quiz/Qibadah.html">Ibadah</a>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
     </div>
-    <div class="content">
-        
 
-        <h1 style="text-align: center; font-family: 'Do Hyeon', sans-serif;">112. Surah Al Ikhlas (The Sincere)</h1>
+    <div class="content">
+        <div class="youtube">
+                <h1>112. Surah Al Ikhlas (The Sincere)</h1>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o5L90BgsUwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="../../images/boy.png" alt="">
+                <div class="chatbox">
+                    <p>Let's listen to the</p>
+                    <p>recitation of surah.</p>
+                </div>
+        </div>
+        <div id="cube">
+            <link rel="stylesheet" href="../cube.css">
+            <h1 class="cubeName">Explore about the Surah in:</h1>
+            <br>
+            <section class="three-d-container">
+                        <input type="radio" id="bullets" class="three-d-bullet a" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet b" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet c" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet d" name="three-d">
+                        <input type="radio" id="bullets" class="three-d-bullet e" name="three-d">
+                        <input type="radio" id="bullets" checked class="three-d-bullet f" name="three-d">
+                        <div class="three-d-cube">
+                            <figure class="three-d-item">
+                                <div id="description">
+                                        <img src="../pictures/description.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="benefit">
+                                        <img src="../pictures/benefit.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="translation">
+                                        <img src="../pictures/translation.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id='summary'>
+                                        <img src="../pictures/summary.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <div id="names">
+                                        <img src="../pictures/names.jpg" alt="">
+                                </div>
+                            </figure>
+                            <figure class="three-d-item">
+                                <a href="../homeSurah.html" id="home">
+                                        <img src="../pictures/home.jpg" alt="">
+                                </a>
+                            </figure>
+                        </div>
+            </section>
+            <br>
+            <h1 class="cubeName">-Cube of Knowledge-</h1>
+        </div>
         
-        <iframe style="box-shadow: 2px 2px gray;" width="100%" height="315" src="https://www.youtube.com/embed/o5L90BgsUwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="first">
+        <!-- The Modal -->
+        <div id="myModal">
+            <span class="close">&times;</span>
+            <!-- Modal content -->
             <div class="description">
                 <h3>Description of Surah</h3>
-                <table>
+                <table id="inside">
                     <tr>
-                         <td>No. of chapter</td>
-                         <td>: 112th chapter</td>
-                     </tr>
-                     <tr>
-                         <td>Place of Revelation</td>
-                         <td>: Makkah al Mukarramah</td>
-                     </tr>
-                     <tr>
-                         <td>No. of verse</td>
-                         <td>: 4 verses</td>
+                        <td>No. of chapter</td>
+                        <td>: 112th chapter</td>
+                    </tr>
+                    <tr>
+                        <td>Place of Revelation</td>
+                        <td>: Makkah al Mukarramah</td>
+                    </tr>
+                    <tr>
+                        <td>No. of verse</td>
+                        <td>: 4 verses</td>
                     </tr>
                 </table>
-            </div>        
+            </div>
+
+            <div class="names">
+                <h3>Stories in Surah Al Ikhlas</h3>
+                <ol>
+                    <li>The explanation on Allah is One.</li>
+                    <li>The interpretation of As Samad which Allah don't need help from others.</li>
+                    <li>Allah is not similar to others and not even birth or giving birth.</li>
+                </ol>
+            </div>
+
+            <div class="benefit">
+                <h3>Benefits of Surah</h3>
+                    <ul>
+                        <li>The recitation of Surah Ikhlas in combination with Surah Fatiha before going to bed is a source of protection from all kinds of harms. Prophet Muhammad (SAW) said: “When you recite Surah Fatiha and Surah Ikhlas upon lying on your bed, you will be safeguarded and should become fearless of everything except death.” </li>
+                        <li>Recitation of Surah Ikhlas brings the benefit of reward equal to the recitation of one-third of Quran. Our beloved Prophet Muhammad (SAW) said: “Say: He is Allah, Absolute Oneness…, By Him in Whose hand my soul is, it is equal to one-third of the Quran!” (Bukhari)</li>
+                        <li>House in Jannah. Prophet Mohammed (SAW) said: “Whoever recites Qul Huwa Allaahu Ahad ten times; Allah will build for him a house in Paradise.” (Saheeh al-Jaami)</li>
+                    </ul>
+            </div>
+
             <div class="translation">
                     <h3>Translation of Surah</h3>
-                    <p style="font-style:italic">“Say: He, Allah, is One,"(1) “Allah, the Eternal,"(2) . “He begets not, nor is He begotten,"(3) “And there is none like unto Him.”(4)</p>
-            </div>          
-        </div>
-        <br>
-        <div class="second">  
+                    <p style="font-style:italic"></p>
+                    <div class="loader">
+                        <img src="https://cdn.dribbble.com/users/1626465/screenshots/4617986/__-2.gif" alt="">
+                        <h2>Loading...</h2>
+                    </div>
+                
+            </div>
+
             <div class="summary">
                 <h3>Brief Summary of Surah</h3>
                 <p>This Surah, as its name indicates, is about the Unity of Allah, and His Oneness. In its four verses, the Surah describes monotheism completely. On the occasion of revelation of this Surah, a tradition from Imam Sadiq (as) says:</p>
                 <p style="font-style:italic">"A Jew asked the holy Prophet (S) to describe the identity or to relate the geneology of Allah. He remained silent and gave no answer for three days, then, the Messenger Angel brought (him) this Surah and he (S) gave them their answer.”</p>
-            </div>
-            <div class="benefit">
-                <h3>Benefits of Surah</h3>
-                <ul>
-                    <li>The recitation of Surah Ikhlas in combination with Surah Fatiha before going to bed is a source of protection from all kinds of harms. Prophet Muhammad (SAW) said: “When you recite Surah Fatiha and Surah Ikhlas upon lying on your bed, you will be safeguarded and should become fearless of everything except death.” </li>
-                    <li>Recitation of Surah Ikhlas brings the benefit of reward equal to the recitation of one-third of Quran. Our beloved Prophet Muhammad (SAW) said: “Say: He is Allah, Absolute Oneness…, By Him in Whose hand my soul is, it is equal to one-third of the Quran!” (Bukhari)</li>
-                    <li>House in Jannah. ProphetMohammed (SAW) said: “Whoever recites Qul Huwa Allaahu Ahad ten times; Allah will build for him a house in Paradise.” (Saheeh al-Jaami)</li>
-                </ul>
+
             </div>
         </div>
+        <br>
         <br><br><br>
         <div class="credit">
-            <p style="font-size: 10px; text-align:center;">Source: </p>
-            <ul>
-                <li>http://www.quranreading.com/blog/rewards-and-benefits-of-reciting-surah-ikhlas/</li>
-            </ul>
+            <p style="font-size: 10px; text-align:center;">Source: 
+                <a href="http://www.quranreading.com/blog/rewards-and-benefits-of-reciting-surah-ikhlas/">quranreading</a>
+            </p>
         </div>
     </div>
-
     <div class="footer">
             <br>
             <a href="../../footer.html#contact"><p>CONTACT US</p></a>  
@@ -119,5 +191,10 @@
             <a href="http://www.facebook.com"><img src="https://image.flaticon.com/icons/svg/220/220200.svg" alt="fb" style="height: 30px;width : 50px;"></a>
             <a href="http://www.linkedin.com"><img src="https://image.flaticon.com/icons/svg/220/220201.svg" alt="linkedin" style="height: 30px;width : 50px;"></a>
     </div>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../surah.js"></script>
+    <script src="../cube.js"></script>
 </body>
 </html>

@@ -1,7 +1,11 @@
 body
 {
     margin: 0%;
-    background: #42acd6;
+    background: url("pic/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-attachment: fixed;
 }
 
 /* start navbar css */

@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MuslimKids!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="alfatihah.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../surah.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
 <body>
+    <option id="noSurah" value="1"></option>
     <div class="background">
         <div class="nav-bar">
             <ul>
@@ -58,10 +59,20 @@
     </div>
 
     <div class="content">
-        <h1 style="text-align: center; font-family: 'Do Hyeon', sans-serif;">1. Surah Al Fatihah (The Opening)</h1>
-        <br>
+        <div class="youtube">
+                <h1>1. Surah Al Fatihah (The Opening)</h1>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lXm26qJkqbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="../../images/boy3.png" alt="">
+                <div class="chatbox">
+                    <p>Let's listen to the</p>
+                    <p>recitation of surah.</p>
+                </div>
+        </div>
         <div id="cube">
             <link rel="stylesheet" href="../cube.css">
+            <h1 class="cubeName">Explore about the Surah in:</h1>
+            <br>
             <section class="three-d-container">
                         <input type="radio" id="bullets" class="three-d-bullet a" name="three-d">
                         <input type="radio" id="bullets" class="three-d-bullet b" name="three-d">
@@ -73,44 +84,39 @@
                             <figure class="three-d-item">
                                 <div id="description">
                                         <img src="../pictures/description.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </div>
                             </figure>
                             <figure class="three-d-item">
                                 <div id="benefit">
                                         <img src="../pictures/benefit.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </div>
                             </figure>
                             <figure class="three-d-item">
                                 <div id="translation">
                                         <img src="../pictures/translation.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </div>
                             </figure>
                             <figure class="three-d-item">
                                 <div id='summary'>
                                         <img src="../pictures/summary.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </div>
                             </figure>
                             <figure class="three-d-item">
                                 <div id="names">
                                         <img src="../pictures/names.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </div>
                             </figure>
                             <figure class="three-d-item">
                                 <a href="../homeSurah.html" id="home">
                                         <img src="../pictures/home.jpg" alt="">
-                                        <div class="centered"><p>Click on me!</p></div>
                                 </a>
                             </figure>
                         </div>
             </section>
+            <br>
+            <h1 class="cubeName">-Cube of Knowledge-</h1>
         </div>
-        <br>
-        <h1 class="cubeName">-Cube of Knowledge-</h1>
+        
         <!-- The Modal -->
         <div id="myModal">
             <span class="close">&times;</span>
@@ -158,7 +164,11 @@
 
             <div class="translation">
                     <h3>Translation of Surah</h3>
-                    <p style="font-style:italic">In The Name of Allah, The Beneficent, The Merciful.(1) "(All) praises is (only) Allah's, the Lord of the Worlds.(2) The Beneficent, The Merciful.(3) Master of the Day of Judgement.(4) Thee (alone) do we worship and of Thee (only) do we seek help.(5) Guide us (O' Lord) on the Straight Path.(6) The path of those upon whom Thou hast bestowed Thy bounties, not (the path) of those inflicted with Thy wrath, nor (of those) gone astray.(7)</p>
+                    <p style="font-style:italic"></p>
+                    <div class="loader">
+                        <img src="https://cdn.dribbble.com/users/1626465/screenshots/4617986/__-2.gif" alt="">
+                        <h2>Loading...</h2>
+                    </div>
                 
             </div>
 
@@ -190,7 +200,7 @@
     </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="alfatihah.js"></script>
+    <script src="../surah.js"></script>
     <script src="../cube.js"></script>
 </body>
 </html>

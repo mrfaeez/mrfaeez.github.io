@@ -6,6 +6,10 @@ var benefit = document.querySelector('.benefit');
 var translation = document.querySelector('.translation');
 var summary = document.querySelector('.summary');
 
+var client = new XMLHttpRequest();
+
+var noSurah = document.getElementById('noSurah').value;
+
 span.onclick = function() {
     modal.style.display = "none";
     desc.style.display = "none";
@@ -48,9 +52,24 @@ $("#benefit").click(function(){
 });
 
 $("#translation").click(function(){
+
+    $('.loader').show();
     
     modal.style.display = "block";
     translation.style.display = "block";
+    
+    client.open("GET", "https://api.alquran.cloud/v1/surah/"+ noSurah +"/en.asad", true);
+    client.onreadystatechange = function() {
+        if(client.readyState == 4) {
+            var obj = JSON.parse(client.responseText);
+            $('.loader').hide();
+            
+            for (var x = 0 ; x < Object.keys(obj['data']['ayahs']).length; x++){
+                $(".translation p").append(obj['data']['ayahs'][x]['text'] + "  (" + obj['data']['ayahs'][x]['numberInSurah'] + ")  ");
+            }    
+        };
+    };
+    client.send();
     
 });
 

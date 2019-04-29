@@ -1,0 +1,129 @@
+/*Overall property*/
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*content*/
+
+.content{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Play', sans-serif;
+}
+
+.youtube{
+    padding: 20px 15% 160px 15%;
+}
+
+.youtube h1{
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.youtube iframe{
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.11);
+}
+
+.youtube img{
+    float: right;
+    height: 300px;
+    width: auto;
+}
+
+.youtube .chatbox{
+    float: right;
+    width: 20%;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    text-align: center;
+    -webkit-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+    -moz-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+    box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+}
+
+#cube{
+    background: url('../pic/polka.jpg') fixed;
+    padding-top: 25px;
+    padding-bottom: 25px;    
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
+}
+
+.description, .names, .benefit, .translation, .summary{
+    display: none;
+    background: url('pictures/wallpaper3.jpg');
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 40px 5% 40px 5%;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: justify;
+    line-height: 40px;
+    font-size: 28px;
+}
+ 
+#myModal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.credit{
+    clear: both;
+}
+
+.credit a{
+    
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer 
+{
+    clear: both;
+    font-family: arial;
+    height: 190px;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}

@@ -8,11 +8,6 @@ body{
     padding: 80px 40px 50px;
     height: 100%;
     width: auto;
-    background: url("../pic/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
     font-family: 'Lobster', cursive;
     font-family: 'Patrick Hand', cursive;
     font-family: 'Play', sans-serif;
