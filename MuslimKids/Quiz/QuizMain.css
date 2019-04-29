@@ -11,23 +11,59 @@ background: url("../pic/background.jpg");
     padding: 80px 40px 50px;
     height: 600px;
     width: auto;
+    position: relative;
+    font-family: 'Audiowide', cursive;
 }
 
 .games1{
-  font-family: 'Audiowide', cursive;
+
   font-size: 4em;
   color:darkblue;
-  text-align: center;
   margin-top: 50px;
+  position:absolute;
+  left: 41%;
+  top: 30%;
 }
 
 .type{
-  font-family: 'Audiowide', cursive;
   font-size: 3em;
   color:yellow;
+  margin-top: 60px;
+  top: 30%;
+  position: absolute;
+  left: 42%;
+
+}
+
+.cir{
+  position: absolute;
   text-align: center;
-  word-spacing: 500px;
-  margin-top: 10px;
+  animation: circle1 10s linear infinite;
+}
+.cir1{
+  position: absolute;
+  text-align: center;
+  animation: circle2 10s linear infinite;
+}
+.cir2{
+  position: absolute;
+  text-align: center;
+  animation: circle3 10s linear infinite;
+}
+
+@keyframes circle1 {
+    from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+@keyframes circle2 {
+    from { transform: rotate(0deg) translateX(-300px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-300px) rotate(-360deg); }
+}
+
+@keyframes circle3 {
+    from { transform: rotate(0deg) translateY(300px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateY(300px) rotate(-360deg); }
 }
 
 a{
