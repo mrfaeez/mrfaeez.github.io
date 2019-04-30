@@ -9,24 +9,34 @@ html{
 
 /*content*/
 
+@media only screen and (min-width: 768px){
+    .content{
+        background: url("../pic/background.jpg");
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: center;
+        background-size: cover;
+    }
+    
+}
+
 .content{
-    padding-top: 80px;
-    padding-bottom: 80px;
     height: 100%;
     width: auto;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3vw;
 }
 
-.youtube{
-    padding: 20px 15% 160px 15%;
-}
-
-.youtube h1{
+.content h1{
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
     color: rgb(110, 83, 67);
     font-size: 2.5vw;
+}
+
+.youtube{
+    padding: 20px 15% 160px 15%;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .youtube iframe{
@@ -62,6 +72,7 @@ html{
 .description, .names, .benefit, .translation, .summary{
     display: none;
     background: url('pictures/wallpaper3.jpg');
+    background-attachment: fixed;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 40px 5% 40px 5%;
     border: 1px solid #888;
