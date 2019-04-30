@@ -11,10 +11,8 @@ html{
 
 @media only screen and (min-width: 768px){
     .content{
-        background: url("../pic/background.jpg");
+        background: url("../pic/back2.jpg") fixed;
         background-repeat: no-repeat;
-        background-position-y: bottom;
-        background-position-x: center;
         background-size: cover;
     }
     
