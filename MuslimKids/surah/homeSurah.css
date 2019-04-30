@@ -101,7 +101,7 @@ body{
 
 .floating{
   width: auto;
-  height: 450px;
+  height: 650px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -182,6 +182,8 @@ body{
 
 
   #search{
+    padding-top: 200px;
+    height: 450px;
     clear: both;
     left: 40%;
     width: 400px;

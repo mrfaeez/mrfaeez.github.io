@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0;
+}
+
+.smoothScroll {
+  z-index: 5;
+  position: fixed;
+  top: 5%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.smoothScroll a{
+    text-decoration: none;
+}
