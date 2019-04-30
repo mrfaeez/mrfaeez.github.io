@@ -1,5 +1,5 @@
 var How_many_fish_do_you_want = 10;
-var maxFishy = 1000;
+var maxFishy = 500;
 var maxWaitForFishy = 10000;
 var tank, tankWidth, tankHeight;
 
