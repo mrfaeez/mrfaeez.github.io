@@ -673,7 +673,7 @@ body{
     color: white;
     text-align: center;
     text-decoration: none;
-    z-index: auto;
+    z-index: 9;
 }
 
 .footer a
