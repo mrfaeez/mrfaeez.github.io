@@ -1,5 +1,17 @@
 body{
   margin: 0 auto;
+  background: url("../pic/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+
+  @media only screen and (max-width: 800px){
+    .content{
+      height: 100%;
+      width: auto;
+    }
   }
 
   #logo
@@ -106,6 +118,83 @@ body{
       color: black;
   }
 
+.content{
+  padding: 50px 10% 100px 10%;
+}
+
+
+.circle img{
+    height: 200px;
+    width: auto;
+}
+
+.circle{
+  float:left;
+  margin: 25px 7.5% 7.5% 7.5% ;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: 'Patrick Hand', cursive;
+  /*-webkit-animation-direction: alternate;*/
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  /*animation-direction: alternate;*/
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 768px)
+{
+  .background
+  {
+    height: 650px;
+  }
+  
+  @keyframes moving1 {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes moving2 {
+    0%   {left:0px; top:40px;}
+    40%  {left:0px; top:200px;}
+    90%  {left:0px; top:0px;}
+    100% {left:0px; top:40px;}
+  }
+
+  @keyframes moving3 {
+    0%   {left:0px; top:80px;}
+    30%  {left:0px; top:200px;}
+    80%  {left:0px; top:0px;}
+    100% {left:0px; top:80px;}
+  }
+
+  #bub1{
+    -webkit-animation-name: moving1; /* Safari 4.0 - 8.0 */
+    animation-name: moving1;
+  }
+
+  #bub2{
+    -webkit-animation-name: moving2; /* Safari 4.0 - 8.0 */
+    animation-name: moving2;
+  }
+
+  #bub3{
+    -webkit-animation-name: moving3; /* Safari 4.0 - 8.0 */
+    animation-name: moving3;
+  }
 
   .tank {
   position: absolute;
@@ -781,6 +870,8 @@ body{
   .treasure-chest {
     left: 50%;
   }
+}
+
 }
 
 .footer
