@@ -53,6 +53,7 @@ $("#benefit").click(function(){
 
 $("#translation").click(function(){
 
+    $('.translation p').empty();
     $('.loader').show();
     
     modal.style.display = "block";
