@@ -24,6 +24,7 @@ button:hover{
 .quiz
 {
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .content{
@@ -32,7 +33,7 @@ button:hover{
   position: absolute;
   right:20%;
   left: 20%;
-  font-family: arial;
+  font-family: 'Raleway', sans-serif;
   background-image: linear-gradient(darkblue, turquoise);
   border-radius: 10px;
   height: 850px;
