@@ -4,15 +4,13 @@
   font-family: 'Raleway';
   text-align: justify;
   width: auto;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/blue-moving-flowing-waves-abstract-background-blurred-smooth-seamless-loop-design-video-animation-1920x1080_eyt-b3lwl__F0000.png");
+  background-image: url("../pic/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background: #42acd6;
 }
 .background
 {
     margin: 0%;
-    background: url(../pic/background.jpg);
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: cover;
