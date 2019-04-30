@@ -148,6 +148,7 @@ body{
 }
 
 .treasure-chest > .lid-side {
+  position: relative;
   display: block;
   width: 60px;
   height: 55px;
@@ -180,6 +181,7 @@ body{
 }
 
 .treasure-chest > .lid {
+  position: relative;
   display: block;
   background-color: #ae6a3d;
   width: 165px;
@@ -243,6 +245,7 @@ body{
 }
 
 .treasure-chest > .top {
+  position: relative;
   display: block;
   background-color: #834723;
   width: 160px;
@@ -266,6 +269,7 @@ body{
 }
 
 .treasure-chest > .front {
+  position: relative;
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
   width: 200px;
@@ -371,6 +375,7 @@ body{
 .treasure-chest > .front > .key-hole {
   display: block;
   margin-left: -9px;
+  position: absolute;
   left: 50%;
   top: 10px;
   width: 4px;
@@ -380,6 +385,7 @@ body{
 }
 
 .treasure-chest > .left-side {
+  position: relative;
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
   width: 100px;
@@ -495,10 +501,12 @@ body{
   }
 }
 .swim-direction {
+  position: relative;
   transition: transform 0.5s;
 }
 
 .swim-height {
+  position: relative;
   margin-top: -20px;
   animation: swim-height 6s infinite;
 }
@@ -509,6 +517,7 @@ body{
   }
 }
 .fish-body {
+  position: relative;
   margin-left: 10px;
   width: 50px;
   height: 30px;
@@ -581,6 +590,7 @@ body{
 
 .fish-depth {
   display: block;
+  position: relative;
   transition: transform 2s ease-out;
 }
 
