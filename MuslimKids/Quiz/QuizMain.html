@@ -66,7 +66,55 @@
           <a class="cir" href="Qsurah.html">Al-Quran</a>
           <a class="cir1" href="Qsahabah.html">Sahabah</a>
           <a class="cir2" href="Qibadah.html">Ibadah</a>
-        </div></div>
+        </div>
+
+      </div>
+
+      <div id="prayerTime">
+              <link rel="stylesheet" href="../prayer/prayer.css">
+              <div id="prayer">
+                  <h1>Prayer Times</h1>
+                  <div class="sel sel-loc">
+                      <select id="mySelect">
+                          <option>Select place:</option>
+                          <option>Kuala Lumpur</option>
+                          <option>Kuantan</option>
+                          <option>Makkah</option>
+                          <option>Shanghai</option>
+                          <option>Singapore</option>
+                      </select>
+                  </div>
+
+                  <button data-label="Submit" id="submit" type="submit">Submit</button>
+
+                  <br>
+                  <table id="table-fill">
+                      <thead>
+                           <tr>
+                              <td><b>Fajr</b></td>
+                              <td><b>Dhuhr</b></td>
+                              <td><b>Asr</b></td>
+                              <td><b>Maghrib</b></td>
+                              <td><b>Isha'</b></td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><p id="fajr"></p></td>
+                              <td><p id="dhuhr"></p></td>
+                              <td><p id="asr"></p></td>
+                              <td><p id="magh"></p></td>
+                              <td><p id="ish"></p></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <br><br>
+              <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+              integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+              crossorigin="anonymous"></script>
+              <script src="../prayer/prayer.js"></script>
+      </div>
 
        <div class="footer">
         <br>
