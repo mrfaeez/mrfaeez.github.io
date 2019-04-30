@@ -163,8 +163,8 @@
 	margin:0;
 	padding:0;
 	cursor:pointer;
-  font-size: 0.9rem;
-  width: 7rem;
+  font-size: 1.1vw;
+  width: 7vw;
   height: auto;
 	font-weight:bold;
 	color:rgba(0,0,0,0);
@@ -177,7 +177,7 @@
 #submit,
 #submit:after,
 #submit:before {
-	padding:.6875rem 2rem;
+  padding:.6875rem 1.5rem;
 	-webkit-transition:-webkit-transform 0.75s,background-color .125s;
 	-moz-transition:-moz-transform 0.75s,background-color .125s;
 	-ms-transition:-ms-transform 0.75s,background-color .125s;
