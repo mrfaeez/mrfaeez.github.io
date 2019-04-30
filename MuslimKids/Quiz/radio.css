@@ -11,3 +11,7 @@ label {
 label:hover{
   color: yellow;
 }
+
+input{
+  cursor: pointer;  
+}
