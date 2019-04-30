@@ -1,3 +1,14 @@
+$.getJSON('https://api.pray.zone/v2/times/today.json?city=kuala-lumpur', function (times)
+    {
+        document.getElementById('fajr').innerHTML = times['results']['datetime'][0]['times']['Fajr'];
+        document.getElementById('dhuhr').innerHTML = times['results']['datetime'][0]['times']['Dhuhr'];
+        document.getElementById('asr').innerHTML = times['results']['datetime'][0]['times']['Asr'];
+        document.getElementById('magh').innerHTML = times['results']['datetime'][0]['times']['Maghrib'];
+        document.getElementById('ish').innerHTML = times['results']['datetime'][0]['times']['Isha'];
+
+    });
+
+
 $('#submit').click(function(){
     var x = document.getElementById("mySelect").value;
     var y;
@@ -8,9 +19,6 @@ $('#submit').click(function(){
         y = 'mecca';
     else
         y = x;
-
-    
-
 
     $.getJSON('https://api.pray.zone/v2/times/today.json?city=' + y, function (times)
     {
