@@ -14,7 +14,11 @@ body
   width: 80% ;
   text-align: justify;
   padding: 10%;
+}
 
+.content h3
+{
+  font-family:'Fredericka the Great';
 }
 
 .footer
