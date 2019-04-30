@@ -4,123 +4,29 @@ body
     background: #44a6d7;
 }
 
+.solatFardhu{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  text-align: center;
+  -webkit-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+  -moz-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+  box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+}
+
+.content-start{
+  padding: 30px 10% 50px 10%;
+}
+
 .background
 {
     margin: 0%;
-    background: url(../pic/background.jpg);
+    background: url(../pic/back2.jpg) fixed;
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: cover;
 
 }
-
-/* start navbar css */
-
-#logo
-{
-    width: 250px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
-
-.nav-bar
-{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    /* font-family: 'Krona One', sans-serif; */
-    margin-top: 1%;
-    height: 70px;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-
-}
-
-.nav-bar ul
-{
-    list-style-type: none;
-    margin: 1%;
-    padding: 0;
-    overflow: hidden;
-    display: inline-block;
-
-}
-
-.nav-bar li
-{
-    float: left;
-}
-
-.nav-bar li a
-{
-    height: 25px;
-    width: 100px;
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
-    text-decoration: none;
-
-    position: relative;
-	font-weight: 600;
-	text-decoration: none;
-	transition: color .3s ease;
-
-}
-
-.nav-bar li a::after
-{
-    --scale: 0;
-    content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 100%;
-	height: 3px;
-	background: rgb(49, 96, 161);
-	transform: scaleX(var(--scale));
-	transform-origin: var(--x) 50%;
-	transition: transform .3s cubic-bezier(.535, .05, .355, 1);
-}
-
-
-.nav-bar li a:hover
-{
-    /* background-color: grey; */
-    color: #ef3d59;
-
-}
-
-.nav-bar li a:hover::after
-{
-    --scale: 1;
-}
-
-.dropsurah, .droplearn, .dropgames, .dropstory
-{
-    display: none;
-    position: absolute;
-    color: black;
-    /* background-color: #f9f9f9; */
-    background-color: #f7b400;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-shadow: none;
-}
-
-#surah:hover .dropsurah, #learn:hover .droplearn, #games:hover .dropgames, #story:hover .dropstory
-{
-    border-bottom: none;
-    display: block;
-    text-shadow: none;
-    color: black;
-}
-
-/* end navbar css */
 
 .prayer{
   text-align: center;
@@ -134,7 +40,8 @@ body
 
 .collapse
 {
-  background-color: #777;
+  background: url('../pic/polka.jpg');
+  background-attachment: fixed;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -144,11 +51,15 @@ body
   outline: none;
   font-size: 18px;
   color: #000;
+  border: #000 2px solid;
+  margin: 13px;
 }
 
 .active, .collapse:hover
 {
-  background-color: #555;
+  -webkit-box-shadow:0px 0px 45px 18px #ffa310 ;
+  -moz-box-shadow:0px 0px 45px 18px #ffa310 ;
+  box-shadow:0px 0px 45px 18px #ffa310 ;
 }
 .collapse:after
 {
@@ -166,6 +77,8 @@ body
 
 .condition
 {
+  background: url('../pic/texture.jpg');
+  background-attachment: fixed;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
