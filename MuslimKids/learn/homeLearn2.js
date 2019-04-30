@@ -1,6 +1,6 @@
 var How_many_fish_do_you_want = 10;
-var maxFishy = 500;
-var maxWaitForFishy = 5000;
+var maxFishy = 90;
+var maxWaitForFishy = 100;
 var tank, tankWidth, tankHeight;
 
 tank = $(".tank");
