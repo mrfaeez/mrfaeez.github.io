@@ -7,6 +7,7 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>QUIZ</title>
     <link rel="stylesheet" href="Qibadah.css">
+    <link rel="stylesheet" href="modalBox.css">
   </head>
   <body>
        <!-- start navbar -->
@@ -15,7 +16,7 @@
     <div class="nav-bar">
             <ul>
                 <li id="learn">
-                    <a href="../learn/SolatFardh.html">LEARN</a>
+                    <a href="../learn/homeLearn.html">LEARN</a>
                     <div class="droplearn">
                         <a href="../learn/SolatFardh.html">Prayer</a>
                         <a href="../learn/Doa.html">Du'a</a>
@@ -60,9 +61,7 @@
 
       <form  class="quiz" name="quiz" onsubmit="return onSubmit()">
       <h2 style="text-align:center;">QUIZ</h2>
-      <div id="results">
-        <h2>You scored: Not yet attempted</h2>
-      </div>
+      <h3>Choose the correct answer:-</h3>
 
       <div class="question">
       1) How many pillars of solah are there?<br>
@@ -102,9 +101,22 @@
       <input type="radio" name="Q5" value="b">b. False<br>
       </div>
 
-      <button type="submit">Submit Test</button>
+      <button id="myBtn" type="submit">Submit Test</button>
     </form>
-    </div></div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div id="results2" class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Please answer all question...</h2>
+      </div>
+      <script src="modalbox.js"></script>
+
+    </div>
+  </div>
+</div>
 
        <div class="footer">
         <br>
@@ -116,9 +128,6 @@
         <a href="http://www.linkedin.com"><img src="https://image.flaticon.com/icons/svg/220/220201.svg" alt="linkedin" style="height: 30px;width : 50px;"></a>
     </div>
 
-
-  <script type="text/javascript" src="Qibadah.js">
-
-  </script>
+  <script type="text/javascript" src="Qibadah.js"></script>
   </body>
 </html>

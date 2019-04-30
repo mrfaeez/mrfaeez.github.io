@@ -21,6 +21,11 @@ button:hover{
   background-color: turquoise;
 }
 
+.quiz
+{
+  color: white;
+}
+
 .content{
 
   margin-left: 20px;
@@ -33,7 +38,6 @@ button:hover{
   height: 850px;
   margin-bottom: 30px;
   text-align: center;
-  color: white;
 }
 
 .all
