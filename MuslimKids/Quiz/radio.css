@@ -1,0 +1,13 @@
+label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  position: relative;
+  width: 500px;
+}
+
+label:hover{
+  color: yellow;
+}
