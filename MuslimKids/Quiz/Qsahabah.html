@@ -7,6 +7,7 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>QUIZ</title>
     <link rel="stylesheet" href="Qsahabah.css">
+    <link rel="stylesheet" href="modalBox.css">
   </head>
   <body>
        <!-- start navbar -->
@@ -15,7 +16,7 @@
     <div class="nav-bar">
             <ul>
                 <li id="learn">
-                    <a href="../learn/SolatFardh.html">LEARN</a>
+                    <a href="../learn/homeLearn.html">LEARN</a>
                     <div class="droplearn">
                         <a href="../learn/SolatFardh.html">Prayer</a>
                         <a href="../learn/Doa.html">Du'a</a>
@@ -58,11 +59,9 @@
 
 
     <div class="content">
-      <form  name="quiz" onsubmit="return onSubmit()">
+      <form  class="quiz" name="quiz" onsubmit="return onSubmit()">
       <h2 style="text-align:center;">QUIZ</h2>
-      <div id="results">
-        <h2>You scored: Not yet attempted</h2>
-      </div>
+      <h3>Choose the correct answer:-</h3>
 
       <div class="question">
       1)What is the gift that is given by Allah to Uwais al-Qarni?<br>
@@ -104,22 +103,33 @@
       <input type="radio" name="Q5" value="d">d. Cancer <br>
       </div>
 
-      <button type="submit">Submit Test</button>
+      <button id="myBtn" type="submit">Submit Test</button>
     </form>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div id="results2" class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Please answer all question...!</h2>
+      </div>
+      <script src="modalbox.js"></script>
+
+    </div>
     </div>
     </div>
 
     <div class="footer">
         <br>
-        <a href="../footer.html#contact"><p>CONTACT US</p></a>  
-        <a href="../footer.html"><p>ABOUT US</p></a>  
-        <a href="../footer.html#faq"><p>FAQ</p></a>  
+        <a href="../footer.html#contact"><p>CONTACT US</p></a>
+        <a href="../footer.html"><p>ABOUT US</p></a>
+        <a href="../footer.html#faq"><p>FAQ</p></a>
         <a href="http://www.youtube.com"><img src="https://image.flaticon.com/icons/svg/220/220211.svg" alt="youtube" style="height: 30px;width : 50px;"></a>
         <a href="http://www.facebook.com"><img src="https://image.flaticon.com/icons/svg/220/220200.svg" alt="fb" style="height: 30px;width : 50px;"></a>
         <a href="http://www.linkedin.com"><img src="https://image.flaticon.com/icons/svg/220/220201.svg" alt="linkedin" style="height: 30px;width : 50px;"></a>
     </div>
-  <script type="text/javascript" src="Qsahabah.js">
 
-  </script>
+  <script type="text/javascript" src="Qsahabah.js"></script>
   </body>
 </html>

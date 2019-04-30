@@ -9,20 +9,20 @@ function onSubmit(){
   var Q4 = document.forms['quiz']['Q4'].value;
   var Q5 = document.forms['quiz']['Q5'].value;
 
-  for(var i = 1; i <= numOfQuestion;i++){
-    if(eval('Q' + i) == ''){
-      alert("You missed question number " + i);
+  for(var i = 1;i <= numOfQuestion; i++){
+    if(eval('Q' + i) == ansArr[i-1]){
+      score++;
     }
   }
 
-    for(var i = 1;i <= numOfQuestion; i++){
-      if(eval('Q' + i) == ansArr[i-1]){
-        score++;
-      }
-    }
+  results2.innerHTML="<h2>You scored " + score + " points out of " + numOfQuestion + "</h2>";
 
-    var results = document.getElementById('results')
-    results.innerHTML="<h2>You scored " + score + " points out of " + numOfQuestion + "</h2>";
-    alert('You scored ' + score + " out of " + numOfQuestion);
-return false;
+  for(var i = 1; i <= numOfQuestion;i++){
+    if(eval('Q' + i) == ''){
+      alert("You missed question number " + i);
+      results2.innerHTML="<h2>Please answer all question...!</h2>";
+      break;
+        }
+      }
+  return false;
   }
