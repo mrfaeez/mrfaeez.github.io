@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="prayer/prayer.css">
+    <link rel="stylesheet" href="prayer/spin.css">
     <link rel="shortcut icon" href="pic/logo-icon.png" type="image/x-icon">
     <title>MuslimKids!</title>
 
@@ -62,7 +63,7 @@
         <!-- end navbar -->
         
         <!-- start content -->
-        <div id="content">
+        <div id="content" style="padding-bottom: 11%;">
 
             <div id="welcome">
                 <div id="about">
@@ -70,9 +71,10 @@
                     <p>MuslimKids! is an interactive islamic webpage specially created for kids to learn about Islam.</p>
                 </div>
                 <div id="pic"><img src="images/family.png" alt=""></div>
-                
             </div>
+
             <br><br>
+            
             <div id="why-us">
                 <h1>Why us?</h1>
                 <div id="why-image">
@@ -124,49 +126,74 @@
                 <br><br>
             </div>
 
+            <!-- start wheel -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <div id="wrapper" style="padding:3%;">
+                <h1>Spin It!</h1>
+                <br>
+                <div id="wheel">
+                  <div id="inner-wheel">
+                    <div class="sec"><span class="fa fa-bell-o">Prayer</span></div>
+                    <div class="sec"><span class="fa fa-comment-o">Doa</span></div>
+                    <div class="sec"><span class="fa fa-smile-o">Zikr</span></div>
+                    <div class="sec"><span class="fa fa-heart-o">Games</span></div>
+                    <div class="sec"><span class="fa fa-smile-o">Surah</span></div>
+                    <div class="sec"><span class="fa fa-heart-o">Story</span></div>
+          
+                  </div>
+          
+                  <div id="spin">
+                    <div id="inner-spin"></div>
+                  </div>
+          
+                  <div id="shine"></div>
+                </div>
+          
+            </div>
+
+            <script type="text/javascript" src="learn/homeLearn.js"></script>
+          
+
             <!-- start prayer times -->
 
-    <div id="prayer">
-            <h1>Prayer Times</h1>
-            <div class="sel sel-loc">
-                <select id="mySelect">
-                    <option>Select place:</option>
-                    <option>Kuala Lumpur</option>
-                    <option>Kuantan</option>
-                    <option>Makkah</option>
-                    <option>Shanghai</option>
-                    <option>Singapore</option>
-                </select>
+            <div id="prayer">
+                <h1>Prayer Times</h1>
+                <div class="sel sel-loc">
+                    <select id="mySelect">
+                        <option>Select place:</option>
+                        <option>Kuala Lumpur</option>
+                        <option>Kuantan</option>
+                        <option>Makkah</option>
+                        <option>Shanghai</option>
+                        <option>Singapore</option>
+                    </select>
+                </div>
+            
+                <button data-label="Submit" id="submit" type="submit">Submit</button>
+    
+                <br>
+                <table id="table-fill">
+                    <thead>
+                        <tr>
+                            <td><b>Fajr</b></td>
+                            <td><b>Dhuhr</b></td>
+                            <td><b>Asr</b></td>
+                            <td><b>Maghrib</b></td>
+                            <td><b>Isha'</b></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><p id="fajr"></p></td>
+                            <td><p id="dhuhr"></p></td>
+                            <td><p id="asr"></p></td>
+                            <td><p id="magh"></p></td>
+                            <td><p id="ish"></p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            
             </div>
-            
-            <button data-label="Submit" id="submit" type="submit">Submit</button>
-    
-            <br>
-            <table id="table-fill">
-                <thead>
-                     <tr>
-                        <td><b>Fajr</b></td>
-                        <td><b>Dhuhr</b></td>
-                        <td><b>Asr</b></td>
-                        <td><b>Maghrib</b></td>
-                        <td><b>Isha'</b></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><p id="fajr"></p></td>
-                        <td><p id="dhuhr"></p></td>
-                        <td><p id="asr"></p></td>
-                        <td><p id="magh"></p></td>
-                        <td><p id="ish"></p></td>
-                    </tr>
-                </tbody>
-               
-                
-    
-            </table>
-            
-        </div>
         <br><br>
     
         <script src="https://code.jquery.com/jquery-3.4.0.min.js"
@@ -175,10 +202,7 @@
         <script src="prayer/prayer.js"></script>
     
         <!-- end prayer times -->
-    
 
-
-        
         </div>
         <!-- end content -->
         

@@ -6,7 +6,7 @@ body
 
 .background
 {
-    background: url(pic/background.jpg);
+    background: url(pic/back2.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -144,6 +144,8 @@ body
     margin-top: 10%;
 }
 
+#welcome{padding-bottom: 4%;}
+
 #welcome::after
 {
     content: "";
@@ -224,11 +226,11 @@ body
 
 #activity
 {
-    /* background: url(pic/texture.jpg) fixed; */
-    padding: 4%;
-    width: 90%;
-    
-    /* box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11); */
+    background: url(pic/texture.jpg) fixed;
+    padding-top: 4%; 
+    padding-bottom: 4%; 
+    width: 100%;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
     
 }
 
