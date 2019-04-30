@@ -690,7 +690,7 @@ body{
     color: white;
     text-align: center;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     z-index: 9;
 }
 
