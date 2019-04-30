@@ -1,16 +1,19 @@
  body{
    margin: 0 auto;
+   width: 100%;
   font-family: 'Raleway';
   text-align: justify;
-  width: auto;
   background-image: url("../pic/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.background{
+
+}
+
 .Doa
 {
-
   font-size: 22px;
 }
 
@@ -18,35 +21,30 @@
 {
   width: 90%;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+
 
 }
 
 .Doa .ParentsDoa
 {
-  margin-top: 43%;
   width: 90%;
   text-align: center;
-  margin-left: 5%;
+
 }
 
 .Doa .ClothDoa
 {
-  margin-top: 5%;
+
   width: 90%;
   text-align: center;
-  margin-left: 5%;
+
 }
 
 .Doa .BeforeStudy
 {
-  padding-bottom: 5%;
-  margin-top: 4%;
+
   width: 90%;
   text-align: center;
-  margin-left: 3%;
-  margin-right: 10%;
 }
 
 .footer
