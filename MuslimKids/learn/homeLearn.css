@@ -3,7 +3,6 @@ body{
   }
 
   .tank {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
@@ -13,7 +12,6 @@ body{
 }
 
 .water {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -24,7 +22,6 @@ body{
 }
 
 .sand {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -34,7 +31,6 @@ body{
 }
 
 .sand > .curve {
-  position: absolute;
   bottom: 50%;
   background-color: #ede8af;
   border-radius: 50%;
@@ -124,7 +120,6 @@ body{
 }
 
 .treasure-chest {
-  position: absolute;
   bottom: 50px;
   left: 70%;
   z-index: 5;
@@ -132,7 +127,6 @@ body{
 
 .treasure-chest > .lock {
   display: block;
-  position: absolute;
   bottom: 164px;
   left: 165px;
   width: 36px;
@@ -144,7 +138,6 @@ body{
 
 .treasure-chest > .lock:before {
   display: block;
-  position: absolute;
   top: 0;
   left: -4px;
   width: 36px;
@@ -201,7 +194,6 @@ body{
 }
 
 .treasure-chest > .lid:before {
-  position: absolute;
   bottom: 0;
   left: 0;
   display: block;
@@ -212,7 +204,6 @@ body{
 }
 
 .treasure-chest > .lid:after {
-  position: absolute;
   top: -7px;
   left: -45px;
   display: block;
@@ -266,7 +257,6 @@ body{
 }
 
 .treasure-chest > .top:after {
-  position: absolute;
   display: block;
   top: 0;
   left: 0;
@@ -323,7 +313,6 @@ body{
 }
 
 .treasure-chest > .front > .frame {
-  position: absolute;
   background-color: #d99b60;
 }
 
@@ -357,7 +346,6 @@ body{
 }
 
 .treasure-chest > .front > .corner {
-  position: absolute;
   width: 30px;
   height: 30px;
   background-color: #e3ded8;
@@ -441,7 +429,6 @@ body{
 }
 
 .treasure-chest > .left-side > .frame {
-  position: absolute;
   background-color: #c68950;
 }
 
@@ -475,7 +462,6 @@ body{
 }
 
 .treasure-chest > .left-side > .corner {
-  position: absolute;
   width: 30px;
   height: 30px;
   background-color: #82878b;
@@ -503,7 +489,6 @@ body{
 }
 
 .fish {
-  position: absolute;
   opacity: 0;
   transition: transform 10s;
   animation: spawn 0.5s forwards;
@@ -544,7 +529,6 @@ body{
 .fish-body::before {
   content: "";
   display: block;
-  position: absolute;
   left: -10px;
   width: 0;
   height: 0;
@@ -556,7 +540,6 @@ body{
 .fish-body::after {
   content: "";
   display: block;
-  position: absolute;
   top: 8px;
   left: 34px;
   width: 6px;
