@@ -51,6 +51,7 @@ background: url("../pic/background.jpg");
   animation: circle3 15s linear infinite;
 }
 
+
 @keyframes circle1 {
     from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
     to   { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
