@@ -1,12 +1,8 @@
-body{
-  font-family: 'Merriweather', Lato;
-  text-align: justify;
-  background-image: url("http://sfwallpaper.com/images/pastel-purple-wallpaper-6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 20px;
-  margin: 0 auto;
-  background: #44a6d7;
+body
+{
+    margin: 0%;
+    background: #44a6d7;
+    font-family: 'Raleway';
 }
 
 .background
@@ -127,100 +123,9 @@ body{
 
 /* end navbar css */
 
-
-.dzikr .firstDzikr
+.fotorama
 {
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-
-}
-
-.dzikr .firstDzikr p
-{
-  float: right;
-  clear: both;
-  width: 40%;
-  text-align: justify;
-}
-
-.dzikr .firstDzikr img
-{
-    width: 500px;
-    height: 300;
-    float: left;
-
-}
-
-.dzikr .secDzikr
-{
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-}
-
-.dzikr .secDzikr ul
-{
-    float: right;
-    clear: both;
-    width: 40%;
-    text-align: justify;
-
-}
-
-.dzikr .secDzikr img
-{
-  float: left;
-  width: 350px;
-  height: 200px;
-}
-
-
-.dzikr .ThirdDzikr
-{
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-
-}
-.dzikr .ThirdDzikr p
-{
-  float: right;
-  text-align: justify;
-  width: 30%;
-
-
-}
-
-.dzikr .ThirdDzikr img
-{
-  float: left;
-  width: 450px;
-}
-
-.dzikr .FourthDzikr
-{
-  text-align: center;
-  width: 100%;
-  height: auto;
-}
-
-.dzikr .FourthDzikr img
-{
-  float: left;
-  width: 350px;
-}
-
-.dzikr .FourthDzikr p
-{
-  text-align: justify;
-  float: right;
-  width: 40%;
-  padding-bottom: 5%;
-
+  padding: 2.5% 25% 15px 25%;
 }
 
 .footer
