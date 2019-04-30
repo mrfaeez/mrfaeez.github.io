@@ -35,6 +35,7 @@ html{
     padding: 20px 15% 160px 15%;
     padding-top: 80px;
     padding-bottom: 80px;
+    height: 550px;
 }
 
 .youtube iframe{
@@ -61,7 +62,7 @@ html{
 }
 
 #cube{
-    background: url('../pic/polka.jpg') fixed;
+    background: url('../pic/texture.jpg') fixed;
     padding-top: 25px;
     padding-bottom: 25px;    
     box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.11);
