@@ -20,6 +20,7 @@
      -moz-box-shadow:0 20px 60px rgba(0,0,0,0.2),			  			  0 0 40px rgba(0,0,0,0.2) inset;
           box-shadow:0 20px 60px rgba(0,0,0,0.2),			  			  0 0 40px rgba(0,0,0,0.2) inset;
   }
+  
   .three-d-cube{
   width:100%;
   height:100%;
@@ -149,10 +150,13 @@
        -o-transform:translateZ( -150px ) rotateX(   90deg );
           transform:translateZ( -150px ) rotateX(   90deg );
   }
+
   .three-d-bullet{
   margin:350px 10px 0 0;
   float:left;
   }
+  
   .three-d-bullet:first-child{
   margin:350px 10px 0 88px;
   }
+  

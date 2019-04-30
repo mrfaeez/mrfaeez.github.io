@@ -1,5 +1,6 @@
 #prayer{
   padding: 3%;
+  text-align: center;
 }
 
 
@@ -18,13 +19,13 @@
     position: relative;
     font-size: 97%;
 }
- 
-#table-fill td, table th 
+
+#table-fill td, table th
 {
     padding-left: 5%;
 }
 
-#table-fill thead tr 
+#table-fill thead tr
 {
     font-size: 1.3vw;
     height: 5vw;
@@ -32,7 +33,7 @@
     color: white;
 }
 
-#table-fill tbody tr 
+#table-fill tbody tr
 {
     color: #7e7e7e;
     height: 5vw;
@@ -53,7 +54,7 @@
     position: relative;
     cursor: pointer;
   }
-  
+
   .sel::before {
     position: absolute;
     content: url(https://www.shareicon.net/data/12x12/2016/09/14/829020_down_512x512.png);
@@ -64,11 +65,11 @@
     right: 20px;
     top: calc(50% - 0.5em);
   }
-  
+
   .sel.active::before {
     transform: rotateX(-180deg);
   }
-  
+
   .sel__placeholder {
     display: block;
     font-family: 'Open Sans', sans-serif;
@@ -80,11 +81,11 @@
     user-select: none;
     visibility: visible;
   }
-  
+
   .sel.active .sel__placeholder {
     visibility: hidden;
   }
-  
+
   .sel__placeholder::before {
     position: absolute;
     top: 0;
@@ -95,11 +96,11 @@
     content: attr(data-placeholder);
     visibility: hidden;
   }
-  
+
   .sel.active .sel__placeholder::before {
     visibility: visible;
   }
-  
+
   .sel__box {
     position: absolute;
     top: calc(100% + 4px);
@@ -112,12 +113,12 @@
     width: calc(100% + 8px);
     box-sizing: border-box;
   }
-  
+
   .sel.active .sel__box {
     display: block;
     animation: fadeInUp 500ms;
   }
-  
+
   .sel__box__options {
     display: list-item;
     font-family: 'Open Sans', sans-serif;
@@ -126,32 +127,32 @@
     padding: 0.5em 1em;
     user-select: none;
   }
-  
+
   .sel__box__options::after {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.5em;
     margin-left: 5px;
     display: none;
   }
-  
+
   .sel__box__options.selected::after {
     display: inline;
   }
-  
+
   .sel__box__options:hover {
     background-color: #ebedef;
   }
-  
+
   /* ----- Select Box Black Panther ----- */
   .sel {
     border-bottom: 4px solid rgba(0, 0, 0, 0.3);
   }
-  
+
   .sel-loc {
     z-index: 3;
   }
 
-  
+
 /* end select style */
 
 /* start button style */
