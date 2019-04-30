@@ -35,15 +35,15 @@ button:hover{
   left: 20%;
   font-family: arial;
   background-image: linear-gradient(darkblue, turquoise);
-  border-radius: 10px;
-  height: 800px;
+  border-radius: 45px;
+  height: 900px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .all
 {
-  height:900px;
+  height:1100px;
 }
 
 .question{

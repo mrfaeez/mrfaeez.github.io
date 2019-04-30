@@ -33,19 +33,18 @@ button:hover{
   position: absolute;
   right:20%;
   left: 20%;
-  font-family: 'Raleway', sans-serif;
+  font-family: arial;
   background-image: linear-gradient(darkblue, turquoise);
-  border-radius: 10px;
-  height: 850px;
+  border-radius: 45px;
+  height: 950px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .all
 {
-  height:900px;
+  height:1100px;
 }
-
 .question{
   text-align: left;
   border-style: solid;
