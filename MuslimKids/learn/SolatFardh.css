@@ -104,6 +104,7 @@ body
   background: url('../pic/texture.jpg');
   background-attachment: fixed;
   padding: 0 18px;
+  margin-left: 2%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
