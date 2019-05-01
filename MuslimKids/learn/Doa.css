@@ -1,5 +1,5 @@
  body{
-   margin: 0 auto;
+   margin: 0%;
    width: 100%;
   font-family: 'Raleway';
   text-align: justify;
@@ -19,7 +19,7 @@
 
 .Doa .Dhuha
 {
-  width: 90%;
+  width: 80%;
   text-align: center;
 
 
@@ -27,7 +27,7 @@
 
 .Doa .ParentsDoa
 {
-  width: 90%;
+  width: 80%;
   text-align: center;
 
 }
@@ -35,7 +35,7 @@
 .Doa .ClothDoa
 {
 
-  width: 90%;
+  width: 80%;
   text-align: center;
 
 }
@@ -43,8 +43,13 @@
 .Doa .BeforeStudy
 {
 
-  width: 90%;
+  width: 80%;
   text-align: center;
+}
+
+.Doa h3
+{
+  font-family:'Fredericka the Great';
 }
 
 .footer
@@ -65,9 +70,4 @@
 {
     color: white;
     text-decoration: none;
-}
-
-.Doa h3
-{
-  font-family:'Fredericka the Great';
 }
