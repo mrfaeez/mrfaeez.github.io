@@ -33,6 +33,8 @@ body
   width: 34%;
   padding: 23px;
   height: 300px;
+  overflow: scroll;
+  font-size: 1.2vw;
 }
 
 /* Clear floats after the columns */
@@ -60,7 +62,7 @@ body
 
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
 .text {font-size: 14px}
 }
 
