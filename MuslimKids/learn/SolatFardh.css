@@ -40,6 +40,8 @@ body
 
 .typeSolat img{
   display: inline-block;
+  height: auto;
+  width: 100%;
 }
 
 .background
@@ -53,6 +55,7 @@ body
 }
 
 .prayer{
+  clear: both;
   text-align: center;
   font-size: 18px;
 }
@@ -139,7 +142,6 @@ ul
 {
   width: 35%;
   height: 250px;
-  float: left;
   margin: 5%;
   font-size: 18px;
   border: 2px solid #005E57;
