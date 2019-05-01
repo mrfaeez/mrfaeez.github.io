@@ -1,35 +1,121 @@
  body{
    margin: 0%;
-   width: 100%;
-  font-family: 'Raleway';
-  text-align: center;
-  background-image: url("../pic/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.background{
-
-}
 
 .Doa
 {
-  font-size: 22px;
-  text-align: -webkit-center;
+  padding: 50px 10% 50px 10%;
+  width: 80%; 
+  font-family: 'Raleway';
+  font-size: 1.8vw;
 }
 
 .Doa .Dhuha
 {
-  width: 80%;
-  text-align: center;
+  border: black solid 1px;
+  margin: 50px;
+  text-align: justify;
+  padding: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  line-height: 3vw;
+}
+
+.Dhuha img{
+  height: auto;
+  width: 100%;
+}
+
+#media img{
+  width: 30%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px){
+  #video iframe{
+      box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.11);
+      height: 80%;
+      width: 50%;
+  }
+
+  #video{
+      height: 450px;
+  }
+
+  #container iframe{
+    float: left;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.11);
+    height: 80%;
+    width: 50%;
+}
+
+#container{
+    height: 450px;
+}
+
+#container img{
+  float: left;
+  width: 40%;
+  height: auto;
+  margin: 50px;
+}
+}
+
+@media only screen and (max-width: 800px){
+  #video{
+      height: 100%;
+  }
+
+  #video iframe{
+      height: 100%;
+      width: 100%;
+  }
+
+  #container{
+    height: 100%;
+  }
+
+  #container iframe{
+    height: 100%;
+    width: 100%;
+  }
+
+  #container img{
+    display: none;
+    
+  }
+  #video img{
+    display: none;
+}
+
+#video .chatbox{
+    display: none;
+}
 }
 
 #video{
-  float: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
- #media{
+#video img{
+  height: 300px;
+  width: auto;
+  margin-left: 10%; 
+}
+
+#video .chatbox{
   float: right;
+  width: 15%;
+  height: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 8px;
+  text-align: center;
+  -webkit-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+  -moz-box-shadow:-2px 1px 18px 6px #a3a4a9 ;
+  box-shadow:-2px 1px 18px 6px #a3a4a9 ;
 }
 
 .Doa .ParentsDoa
@@ -57,8 +143,9 @@
   text-align: center;
 }
 
-.Doa h3
+h3
 {
+  text-align: center;
   font-family:'Fredericka the Great';
 }
 
